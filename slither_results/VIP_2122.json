@@ -1,0 +1,726 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "name",
+            "source_mapping": {
+              "start": 2875,
+              "length": 18,
+              "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_relative": "VIP_2122.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_short": "VIP_2122.sol",
+              "is_dependency": false,
+              "lines": [
+                92
+              ],
+              "starting_column": 18,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 2862,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_relative": "VIP_2122.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_short": "VIP_2122.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    92,
+                    93,
+                    94,
+                    95,
+                    96
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 2734,
+                      "length": 575,
+                      "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                      "filename_relative": "VIP_2122.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                      "filename_short": "VIP_2122.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "name",
+            "source_mapping": {
+              "start": 3037,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_relative": "VIP_2122.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_short": "VIP_2122.sol",
+              "is_dependency": false,
+              "lines": [
+                98,
+                99,
+                100
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 2734,
+                  "length": 575,
+                  "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_relative": "VIP_2122.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_short": "VIP_2122.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "name()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).name (VIP_2122.sol#92) shadows:\n\t- ERC20Detailed.name() (VIP_2122.sol#98-100) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).name](VIP_2122.sol#L92) shadows:\n\t- [ERC20Detailed.name()](VIP_2122.sol#L98-L100) (function)\n",
+        "id": "cc79c402b72d738360f3eefe4386e6c2bf77198844db08fa7e421f821cc00851",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 2895,
+              "length": 20,
+              "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_relative": "VIP_2122.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_short": "VIP_2122.sol",
+              "is_dependency": false,
+              "lines": [
+                92
+              ],
+              "starting_column": 38,
+              "ending_column": 58
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 2862,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_relative": "VIP_2122.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_short": "VIP_2122.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    92,
+                    93,
+                    94,
+                    95,
+                    96
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 2734,
+                      "length": 575,
+                      "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                      "filename_relative": "VIP_2122.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                      "filename_short": "VIP_2122.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 3128,
+              "length": 87,
+              "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_relative": "VIP_2122.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_short": "VIP_2122.sol",
+              "is_dependency": false,
+              "lines": [
+                102,
+                103,
+                104
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 2734,
+                  "length": 575,
+                  "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_relative": "VIP_2122.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_short": "VIP_2122.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "symbol()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).symbol (VIP_2122.sol#92) shadows:\n\t- ERC20Detailed.symbol() (VIP_2122.sol#102-104) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).symbol](VIP_2122.sol#L92) shadows:\n\t- [ERC20Detailed.symbol()](VIP_2122.sol#L102-L104) (function)\n",
+        "id": "8001ef8aa02973c3b50a70701dd29bd34da99677c332f5ece9c5ad02f96df070",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 2917,
+              "length": 14,
+              "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_relative": "VIP_2122.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_short": "VIP_2122.sol",
+              "is_dependency": false,
+              "lines": [
+                92
+              ],
+              "starting_column": 60,
+              "ending_column": 74
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 2862,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_relative": "VIP_2122.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_short": "VIP_2122.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    92,
+                    93,
+                    94,
+                    95,
+                    96
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 2734,
+                      "length": 575,
+                      "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                      "filename_relative": "VIP_2122.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                      "filename_short": "VIP_2122.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        87,
+                        88,
+                        89,
+                        90,
+                        91,
+                        92,
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99,
+                        100,
+                        101,
+                        102,
+                        103,
+                        104,
+                        105,
+                        106,
+                        107,
+                        108,
+                        109
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 3223,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_relative": "VIP_2122.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_short": "VIP_2122.sol",
+              "is_dependency": false,
+              "lines": [
+                106,
+                107,
+                108
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 2734,
+                  "length": 575,
+                  "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_relative": "VIP_2122.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_short": "VIP_2122.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "decimals()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).decimals (VIP_2122.sol#92) shadows:\n\t- ERC20Detailed.decimals() (VIP_2122.sol#106-108) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).decimals](VIP_2122.sol#L92) shadows:\n\t- [ERC20Detailed.decimals()](VIP_2122.sol#L106-L108) (function)\n",
+        "id": "9845f20fbb5426ca76f8323c89209ef9241cc258bb2d3177ffb8d85a5b354720",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "totalSupply",
+            "source_mapping": {
+              "start": 10826,
+              "length": 67,
+              "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_relative": "VIP_2122.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_short": "VIP_2122.sol",
+              "is_dependency": false,
+              "lines": [
+                352
+              ],
+              "starting_column": 9,
+              "ending_column": 76
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 10764,
+                  "length": 186,
+                  "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_relative": "VIP_2122.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_short": "VIP_2122.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    351,
+                    352,
+                    353,
+                    354
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "VIP",
+                    "source_mapping": {
+                      "start": 10697,
+                      "length": 256,
+                      "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                      "filename_relative": "VIP_2122.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                      "filename_short": "VIP_2122.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        350,
+                        351,
+                        352,
+                        353,
+                        354,
+                        355
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "constructor()"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "totalSupply",
+            "source_mapping": {
+              "start": 3559,
+              "length": 91,
+              "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_relative": "VIP_2122.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_short": "VIP_2122.sol",
+              "is_dependency": false,
+              "lines": [
+                120,
+                121,
+                122
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 3313,
+                  "length": 2866,
+                  "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_relative": "VIP_2122.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_short": "VIP_2122.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118,
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124,
+                    125,
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    153,
+                    154,
+                    155,
+                    156,
+                    157,
+                    158,
+                    159,
+                    160,
+                    161,
+                    162,
+                    163,
+                    164,
+                    165,
+                    166,
+                    167,
+                    168,
+                    169,
+                    170,
+                    171,
+                    172,
+                    173,
+                    174,
+                    175,
+                    176,
+                    177,
+                    178,
+                    179,
+                    180,
+                    181,
+                    182
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "totalSupply()"
+            }
+          },
+          {
+            "type": "function",
+            "name": "totalSupply",
+            "source_mapping": {
+              "start": 2067,
+              "length": 55,
+              "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_relative": "VIP_2122.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+              "filename_short": "VIP_2122.sol",
+              "is_dependency": false,
+              "lines": [
+                70
+              ],
+              "starting_column": 5,
+              "ending_column": 60
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "IERC20",
+                "source_mapping": {
+                  "start": 2043,
+                  "length": 687,
+                  "filename_used": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_relative": "VIP_2122.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/VIP_2122.sol",
+                  "filename_short": "VIP_2122.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "totalSupply()"
+            }
+          }
+        ],
+        "description": "VIP.constructor().totalSupply (VIP_2122.sol#352) shadows:\n\t- ERC20.totalSupply() (VIP_2122.sol#120-122) (function)\n\t- IERC20.totalSupply() (VIP_2122.sol#70) (function)\n",
+        "markdown": "[VIP.constructor().totalSupply](VIP_2122.sol#L352) shadows:\n\t- [ERC20.totalSupply()](VIP_2122.sol#L120-L122) (function)\n\t- [IERC20.totalSupply()](VIP_2122.sol#L70) (function)\n",
+        "id": "0eebffd4a70e7b62ec233d1fbb76dd37904bfd7d78a1351c5f9d705523e80a5f",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      }
+    ]
+  }
+}

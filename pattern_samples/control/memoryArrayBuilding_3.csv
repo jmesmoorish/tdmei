@@ -1,0 +1,6 @@
+type,count,contracts
+2thousand,11,"[{""contract"":""Aggregator_1751"",""line"":1031},{""contract"":""Aggregator_2289"",""line"":1031},{""contract"":""AirBasicToken_803"",""line"":275},{""contract"":""AirBasicToken_803"",""line"":283},{""contract"":""ETHERAUK_1151"",""line"":118},{""contract"":""IdallToken_2209"",""line"":364},{""contract"":""LitionPool_636"",""line"":192},{""contract"":""LitionPool_636"",""line"":205},{""contract"":""Smartlevel_3010"",""line"":84},{""contract"":""TotlePrimary_698"",""line"":279},{""contract"":""TokenSale_3802"",""line"":1059}]"
+4thousand,0,[]
+6thousand,0,[]
+8thousand,0,[]
+10thousand,2,"[{""contract"":""MainContract_700"",""line"":73},{""contract"":""MainContract_700"",""line"":1611}]"

@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nSquareQueue_377.sol:184:25: TypeError: Definition of base has to precede definition of derived contract\ncontract SquareQueue is usingProvable {\r\n                        ^-----------^\n", "issues": []}

@@ -1,0 +1,536 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "name",
+            "source_mapping": {
+              "start": 11228,
+              "length": 18,
+              "filename_used": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+              "filename_relative": "EvoCoinToken_1122.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+              "filename_short": "EvoCoinToken_1122.sol",
+              "is_dependency": false,
+              "lines": [
+                303
+              ],
+              "starting_column": 18,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 11215,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                  "filename_relative": "EvoCoinToken_1122.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                  "filename_short": "EvoCoinToken_1122.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    303,
+                    304,
+                    305,
+                    306,
+                    307
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 11087,
+                      "length": 762,
+                      "filename_used": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                      "filename_relative": "EvoCoinToken_1122.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                      "filename_short": "EvoCoinToken_1122.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        298,
+                        299,
+                        300,
+                        301,
+                        302,
+                        303,
+                        304,
+                        305,
+                        306,
+                        307,
+                        308,
+                        309,
+                        310,
+                        311,
+                        312,
+                        313,
+                        314,
+                        315,
+                        316,
+                        317,
+                        318,
+                        319,
+                        320,
+                        321,
+                        322,
+                        323,
+                        324,
+                        325,
+                        326,
+                        327,
+                        328,
+                        329
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "name",
+            "source_mapping": {
+              "start": 11447,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+              "filename_relative": "EvoCoinToken_1122.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+              "filename_short": "EvoCoinToken_1122.sol",
+              "is_dependency": false,
+              "lines": [
+                312,
+                313,
+                314
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 11087,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                  "filename_relative": "EvoCoinToken_1122.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                  "filename_short": "EvoCoinToken_1122.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    298,
+                    299,
+                    300,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310,
+                    311,
+                    312,
+                    313,
+                    314,
+                    315,
+                    316,
+                    317,
+                    318,
+                    319,
+                    320,
+                    321,
+                    322,
+                    323,
+                    324,
+                    325,
+                    326,
+                    327,
+                    328,
+                    329
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "name()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).name (EvoCoinToken_1122.sol#303) shadows:\n\t- ERC20Detailed.name() (EvoCoinToken_1122.sol#312-314) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).name](EvoCoinToken_1122.sol#L303) shadows:\n\t- [ERC20Detailed.name()](EvoCoinToken_1122.sol#L312-L314) (function)\n",
+        "id": "cc79c402b72d738360f3eefe4386e6c2bf77198844db08fa7e421f821cc00851",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 11248,
+              "length": 20,
+              "filename_used": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+              "filename_relative": "EvoCoinToken_1122.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+              "filename_short": "EvoCoinToken_1122.sol",
+              "is_dependency": false,
+              "lines": [
+                303
+              ],
+              "starting_column": 38,
+              "ending_column": 58
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 11215,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                  "filename_relative": "EvoCoinToken_1122.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                  "filename_short": "EvoCoinToken_1122.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    303,
+                    304,
+                    305,
+                    306,
+                    307
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 11087,
+                      "length": 762,
+                      "filename_used": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                      "filename_relative": "EvoCoinToken_1122.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                      "filename_short": "EvoCoinToken_1122.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        298,
+                        299,
+                        300,
+                        301,
+                        302,
+                        303,
+                        304,
+                        305,
+                        306,
+                        307,
+                        308,
+                        309,
+                        310,
+                        311,
+                        312,
+                        313,
+                        314,
+                        315,
+                        316,
+                        317,
+                        318,
+                        319,
+                        320,
+                        321,
+                        322,
+                        323,
+                        324,
+                        325,
+                        326,
+                        327,
+                        328,
+                        329
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 11597,
+              "length": 87,
+              "filename_used": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+              "filename_relative": "EvoCoinToken_1122.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+              "filename_short": "EvoCoinToken_1122.sol",
+              "is_dependency": false,
+              "lines": [
+                319,
+                320,
+                321
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 11087,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                  "filename_relative": "EvoCoinToken_1122.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                  "filename_short": "EvoCoinToken_1122.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    298,
+                    299,
+                    300,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310,
+                    311,
+                    312,
+                    313,
+                    314,
+                    315,
+                    316,
+                    317,
+                    318,
+                    319,
+                    320,
+                    321,
+                    322,
+                    323,
+                    324,
+                    325,
+                    326,
+                    327,
+                    328,
+                    329
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "symbol()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).symbol (EvoCoinToken_1122.sol#303) shadows:\n\t- ERC20Detailed.symbol() (EvoCoinToken_1122.sol#319-321) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).symbol](EvoCoinToken_1122.sol#L303) shadows:\n\t- [ERC20Detailed.symbol()](EvoCoinToken_1122.sol#L319-L321) (function)\n",
+        "id": "8001ef8aa02973c3b50a70701dd29bd34da99677c332f5ece9c5ad02f96df070",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 11270,
+              "length": 14,
+              "filename_used": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+              "filename_relative": "EvoCoinToken_1122.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+              "filename_short": "EvoCoinToken_1122.sol",
+              "is_dependency": false,
+              "lines": [
+                303
+              ],
+              "starting_column": 60,
+              "ending_column": 74
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 11215,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                  "filename_relative": "EvoCoinToken_1122.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                  "filename_short": "EvoCoinToken_1122.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    303,
+                    304,
+                    305,
+                    306,
+                    307
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 11087,
+                      "length": 762,
+                      "filename_used": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                      "filename_relative": "EvoCoinToken_1122.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                      "filename_short": "EvoCoinToken_1122.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        298,
+                        299,
+                        300,
+                        301,
+                        302,
+                        303,
+                        304,
+                        305,
+                        306,
+                        307,
+                        308,
+                        309,
+                        310,
+                        311,
+                        312,
+                        313,
+                        314,
+                        315,
+                        316,
+                        317,
+                        318,
+                        319,
+                        320,
+                        321,
+                        322,
+                        323,
+                        324,
+                        325,
+                        326,
+                        327,
+                        328,
+                        329
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 11763,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+              "filename_relative": "EvoCoinToken_1122.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+              "filename_short": "EvoCoinToken_1122.sol",
+              "is_dependency": false,
+              "lines": [
+                326,
+                327,
+                328
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 11087,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                  "filename_relative": "EvoCoinToken_1122.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/EvoCoinToken_1122.sol",
+                  "filename_short": "EvoCoinToken_1122.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    298,
+                    299,
+                    300,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310,
+                    311,
+                    312,
+                    313,
+                    314,
+                    315,
+                    316,
+                    317,
+                    318,
+                    319,
+                    320,
+                    321,
+                    322,
+                    323,
+                    324,
+                    325,
+                    326,
+                    327,
+                    328,
+                    329
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "decimals()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).decimals (EvoCoinToken_1122.sol#303) shadows:\n\t- ERC20Detailed.decimals() (EvoCoinToken_1122.sol#326-328) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).decimals](EvoCoinToken_1122.sol#L303) shadows:\n\t- [ERC20Detailed.decimals()](EvoCoinToken_1122.sol#L326-L328) (function)\n",
+        "id": "9845f20fbb5426ca76f8323c89209ef9241cc258bb2d3177ffb8d85a5b354720",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      }
+    ]
+  }
+}

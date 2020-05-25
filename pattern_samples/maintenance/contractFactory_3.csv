@@ -1,0 +1,6 @@
+type,count,contracts
+2thousand,11,"[{""contract"":""AppProxyUpgradeable_2399"",""line"":1044},{""contract"":""AppProxyUpgradeable_2399"",""line"":2422},{""contract"":""AppProxyUpgradeable_2399"",""line"":2468},{""contract"":""DharmaKeyRingFactoryV2_3976"",""line"":213},{""contract"":""DharmaSmartWalletFactoryV1_4707"",""line"":123},{""contract"":""EthexLoto_105"",""line"":1102},{""contract"":""HedgeContract_1066"",""line"":654},{""contract"":""LinkdropFactory_4753"",""line"":915},{""contract"":""ProxyFactory_2261"",""line"":60},{""contract"":""UniswapEX_4696"",""line"":339},{""contract"":""Version_1080"",""line"":4}]"
+4thousand,1,"[{""contract"":""EthexLoto_1763"",""line"":1102}]"
+6thousand,0,[]
+8thousand,1,"[{""contract"":""OracleFactory_4365"",""line"":621}]"
+10thousand,0,[]

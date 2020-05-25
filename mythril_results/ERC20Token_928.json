@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nCannot import url (\"ERC20Token_928.sol\"): File outside of allowed directories.", "issues": []}

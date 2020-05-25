@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nDMEX_Oracle_1196.sol:20:25: TypeError: Definition of base has to precede definition of derived contract\ncontract DMEX_Oracle is usingProvable {\r\n                        ^-----------^\n", "issues": []}

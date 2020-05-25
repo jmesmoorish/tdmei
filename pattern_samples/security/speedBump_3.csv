@@ -1,0 +1,6 @@
+type,count,contracts
+2thousand,14,"[{""contract"":""AccountLogic_1962"",""line"":139},{""contract"":""AccountLogic_1962"",""line"":161},{""contract"":""AccountCreator_822"",""line"":295},{""contract"":""AccountCreator_822"",""line"":317},{""contract"":""BitcoinProtocol_1160"",""line"":74},{""contract"":""COMBO_227"",""line"":87},{""contract"":""DappLogic_1959"",""line"":137},{""contract"":""DappLogic_1959"",""line"":159},{""contract"":""EticaRelease_3466"",""line"":563},{""contract"":""EXMR_FDN_3730"",""line"":380},{""contract"":""GranC_1174"",""line"":233},{""contract"":""KillToken_774"",""line"":218},{""contract"":""MACH_4281"",""line"":505},{""contract"":""StakingContract_2171"",""line"":676}]"
+4thousand,3,"[{""contract"":""DappLogic_866"",""line"":443},{""contract"":""DappLogic_866"",""line"":465},{""contract"":""UzNEX_2512"",""line"":18}]"
+6thousand,0,[]
+8thousand,0,[]
+10thousand,1,"[{""contract"":""BrokerV2_4263"",""line"":1605}]"

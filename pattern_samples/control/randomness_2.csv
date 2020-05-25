@@ -1,0 +1,5 @@
+type,count,contracts
+token,1,"[{""contract"":""CryptoMorphMint_1428"",""line"":1090}]"
+defi,0,[]
+game,2,"[{""contract"":""GODGame_838"",""line"":137},{""contract"":""SquareQueue_377"",""line"":40}]"
+other,1,"[{""contract"":""EticaRelease_3466"",""line"":1233}]"

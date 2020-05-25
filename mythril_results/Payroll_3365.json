@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nPayroll_3365.sol:81:24: ParserError: Expected ',' but got identifier\n        bytes calldata encodedFunction,\r\n                       ^-------------^\n", "issues": []}

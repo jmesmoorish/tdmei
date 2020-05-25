@@ -1,0 +1,914 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_name",
+            "source_mapping": {
+              "start": 11261,
+              "length": 29,
+              "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_relative": "IPOS_2414.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_short": "IPOS_2414.sol",
+              "is_dependency": false,
+              "lines": [
+                314
+              ],
+              "starting_column": 5,
+              "ending_column": 34
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "IPOS",
+                "source_mapping": {
+                  "start": 11216,
+                  "length": 352,
+                  "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_relative": "IPOS_2414.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_short": "IPOS_2414.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    313,
+                    314,
+                    315,
+                    316,
+                    317,
+                    318,
+                    319,
+                    320,
+                    321,
+                    322
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "_name",
+            "source_mapping": {
+              "start": 10488,
+              "length": 20,
+              "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_relative": "IPOS_2414.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_short": "IPOS_2414.sol",
+              "is_dependency": false,
+              "lines": [
+                280
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 10448,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_relative": "IPOS_2414.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_short": "IPOS_2414.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    279,
+                    280,
+                    281,
+                    282,
+                    283,
+                    284,
+                    285,
+                    286,
+                    287,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    293,
+                    294,
+                    295,
+                    296,
+                    297,
+                    298,
+                    299,
+                    300,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "IPOS._name (IPOS_2414.sol#314) shadows:\n\t- ERC20Detailed._name (IPOS_2414.sol#280)\n",
+        "markdown": "[IPOS._name](IPOS_2414.sol#L314) shadows:\n\t- [ERC20Detailed._name](IPOS_2414.sol#L280)\n",
+        "id": "669dadf97bca05f4c34feb82f02c8e20d1581aa87e15f11557c815a0b4fcbc9a",
+        "check": "shadowing-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_symbol",
+            "source_mapping": {
+              "start": 11297,
+              "length": 31,
+              "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_relative": "IPOS_2414.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_short": "IPOS_2414.sol",
+              "is_dependency": false,
+              "lines": [
+                315
+              ],
+              "starting_column": 5,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "IPOS",
+                "source_mapping": {
+                  "start": 11216,
+                  "length": 352,
+                  "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_relative": "IPOS_2414.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_short": "IPOS_2414.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    313,
+                    314,
+                    315,
+                    316,
+                    317,
+                    318,
+                    319,
+                    320,
+                    321,
+                    322
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "_symbol",
+            "source_mapping": {
+              "start": 10515,
+              "length": 22,
+              "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_relative": "IPOS_2414.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_short": "IPOS_2414.sol",
+              "is_dependency": false,
+              "lines": [
+                281
+              ],
+              "starting_column": 5,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 10448,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_relative": "IPOS_2414.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_short": "IPOS_2414.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    279,
+                    280,
+                    281,
+                    282,
+                    283,
+                    284,
+                    285,
+                    286,
+                    287,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    293,
+                    294,
+                    295,
+                    296,
+                    297,
+                    298,
+                    299,
+                    300,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "IPOS._symbol (IPOS_2414.sol#315) shadows:\n\t- ERC20Detailed._symbol (IPOS_2414.sol#281)\n",
+        "markdown": "[IPOS._symbol](IPOS_2414.sol#L315) shadows:\n\t- [ERC20Detailed._symbol](IPOS_2414.sol#L281)\n",
+        "id": "0567435836b74bb2009019af700680a4f9dfb180fc8671c2a5e518bc37cde8ee",
+        "check": "shadowing-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_decimals",
+            "source_mapping": {
+              "start": 11335,
+              "length": 28,
+              "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_relative": "IPOS_2414.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_short": "IPOS_2414.sol",
+              "is_dependency": false,
+              "lines": [
+                316
+              ],
+              "starting_column": 5,
+              "ending_column": 33
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "IPOS",
+                "source_mapping": {
+                  "start": 11216,
+                  "length": 352,
+                  "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_relative": "IPOS_2414.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_short": "IPOS_2414.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    313,
+                    314,
+                    315,
+                    316,
+                    317,
+                    318,
+                    319,
+                    320,
+                    321,
+                    322
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "_decimals",
+            "source_mapping": {
+              "start": 10544,
+              "length": 23,
+              "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_relative": "IPOS_2414.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_short": "IPOS_2414.sol",
+              "is_dependency": false,
+              "lines": [
+                282
+              ],
+              "starting_column": 5,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 10448,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_relative": "IPOS_2414.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_short": "IPOS_2414.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    279,
+                    280,
+                    281,
+                    282,
+                    283,
+                    284,
+                    285,
+                    286,
+                    287,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    293,
+                    294,
+                    295,
+                    296,
+                    297,
+                    298,
+                    299,
+                    300,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "IPOS._decimals (IPOS_2414.sol#316) shadows:\n\t- ERC20Detailed._decimals (IPOS_2414.sol#282)\n",
+        "markdown": "[IPOS._decimals](IPOS_2414.sol#L316) shadows:\n\t- [ERC20Detailed._decimals](IPOS_2414.sol#L282)\n",
+        "id": "d8986e714aa0653cdd92fb2f99f076a53f1a96825250cf6691eac15ab1c706ba",
+        "check": "shadowing-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "name",
+            "source_mapping": {
+              "start": 10589,
+              "length": 18,
+              "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_relative": "IPOS_2414.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_short": "IPOS_2414.sol",
+              "is_dependency": false,
+              "lines": [
+                284
+              ],
+              "starting_column": 18,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 10576,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_relative": "IPOS_2414.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_short": "IPOS_2414.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    284,
+                    285,
+                    286,
+                    287,
+                    288
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 10448,
+                      "length": 762,
+                      "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                      "filename_relative": "IPOS_2414.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                      "filename_short": "IPOS_2414.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        279,
+                        280,
+                        281,
+                        282,
+                        283,
+                        284,
+                        285,
+                        286,
+                        287,
+                        288,
+                        289,
+                        290,
+                        291,
+                        292,
+                        293,
+                        294,
+                        295,
+                        296,
+                        297,
+                        298,
+                        299,
+                        300,
+                        301,
+                        302,
+                        303,
+                        304,
+                        305,
+                        306,
+                        307,
+                        308,
+                        309,
+                        310
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "name",
+            "source_mapping": {
+              "start": 10808,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_relative": "IPOS_2414.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_short": "IPOS_2414.sol",
+              "is_dependency": false,
+              "lines": [
+                293,
+                294,
+                295
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 10448,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_relative": "IPOS_2414.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_short": "IPOS_2414.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    279,
+                    280,
+                    281,
+                    282,
+                    283,
+                    284,
+                    285,
+                    286,
+                    287,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    293,
+                    294,
+                    295,
+                    296,
+                    297,
+                    298,
+                    299,
+                    300,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "name()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).name (IPOS_2414.sol#284) shadows:\n\t- ERC20Detailed.name() (IPOS_2414.sol#293-295) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).name](IPOS_2414.sol#L284) shadows:\n\t- [ERC20Detailed.name()](IPOS_2414.sol#L293-L295) (function)\n",
+        "id": "cc79c402b72d738360f3eefe4386e6c2bf77198844db08fa7e421f821cc00851",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 10609,
+              "length": 20,
+              "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_relative": "IPOS_2414.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_short": "IPOS_2414.sol",
+              "is_dependency": false,
+              "lines": [
+                284
+              ],
+              "starting_column": 38,
+              "ending_column": 58
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 10576,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_relative": "IPOS_2414.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_short": "IPOS_2414.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    284,
+                    285,
+                    286,
+                    287,
+                    288
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 10448,
+                      "length": 762,
+                      "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                      "filename_relative": "IPOS_2414.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                      "filename_short": "IPOS_2414.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        279,
+                        280,
+                        281,
+                        282,
+                        283,
+                        284,
+                        285,
+                        286,
+                        287,
+                        288,
+                        289,
+                        290,
+                        291,
+                        292,
+                        293,
+                        294,
+                        295,
+                        296,
+                        297,
+                        298,
+                        299,
+                        300,
+                        301,
+                        302,
+                        303,
+                        304,
+                        305,
+                        306,
+                        307,
+                        308,
+                        309,
+                        310
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 10958,
+              "length": 87,
+              "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_relative": "IPOS_2414.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_short": "IPOS_2414.sol",
+              "is_dependency": false,
+              "lines": [
+                300,
+                301,
+                302
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 10448,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_relative": "IPOS_2414.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_short": "IPOS_2414.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    279,
+                    280,
+                    281,
+                    282,
+                    283,
+                    284,
+                    285,
+                    286,
+                    287,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    293,
+                    294,
+                    295,
+                    296,
+                    297,
+                    298,
+                    299,
+                    300,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "symbol()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).symbol (IPOS_2414.sol#284) shadows:\n\t- ERC20Detailed.symbol() (IPOS_2414.sol#300-302) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).symbol](IPOS_2414.sol#L284) shadows:\n\t- [ERC20Detailed.symbol()](IPOS_2414.sol#L300-L302) (function)\n",
+        "id": "8001ef8aa02973c3b50a70701dd29bd34da99677c332f5ece9c5ad02f96df070",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 10631,
+              "length": 14,
+              "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_relative": "IPOS_2414.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_short": "IPOS_2414.sol",
+              "is_dependency": false,
+              "lines": [
+                284
+              ],
+              "starting_column": 60,
+              "ending_column": 74
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 10576,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_relative": "IPOS_2414.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_short": "IPOS_2414.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    284,
+                    285,
+                    286,
+                    287,
+                    288
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 10448,
+                      "length": 762,
+                      "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                      "filename_relative": "IPOS_2414.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                      "filename_short": "IPOS_2414.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        279,
+                        280,
+                        281,
+                        282,
+                        283,
+                        284,
+                        285,
+                        286,
+                        287,
+                        288,
+                        289,
+                        290,
+                        291,
+                        292,
+                        293,
+                        294,
+                        295,
+                        296,
+                        297,
+                        298,
+                        299,
+                        300,
+                        301,
+                        302,
+                        303,
+                        304,
+                        305,
+                        306,
+                        307,
+                        308,
+                        309,
+                        310
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 11124,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_relative": "IPOS_2414.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+              "filename_short": "IPOS_2414.sol",
+              "is_dependency": false,
+              "lines": [
+                307,
+                308,
+                309
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 10448,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_relative": "IPOS_2414.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/IPOS_2414.sol",
+                  "filename_short": "IPOS_2414.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    279,
+                    280,
+                    281,
+                    282,
+                    283,
+                    284,
+                    285,
+                    286,
+                    287,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    293,
+                    294,
+                    295,
+                    296,
+                    297,
+                    298,
+                    299,
+                    300,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "decimals()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).decimals (IPOS_2414.sol#284) shadows:\n\t- ERC20Detailed.decimals() (IPOS_2414.sol#307-309) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).decimals](IPOS_2414.sol#L284) shadows:\n\t- [ERC20Detailed.decimals()](IPOS_2414.sol#L307-L309) (function)\n",
+        "id": "9845f20fbb5426ca76f8323c89209ef9241cc258bb2d3177ffb8d85a5b354720",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      }
+    ]
+  }
+}

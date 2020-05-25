@@ -1,0 +1,5 @@
+type,count,contracts
+token,5,"[{""contract"":""S3Coin_5127"",""line"":32},{""contract"":""SynchroBitcoin_2570"",""line"":188},{""contract"":""TimeAlly_5756"",""line"":207},{""contract"":""TokenFaucet_5894"",""line"":1756},{""contract"":""WET_4895"",""line"":98}]"
+defi,7,"[{""contract"":""CashQuestBot_4865"",""line"":96},{""contract"":""Curvepool_473"",""line"":592},{""contract"":""DMEX_Trading_1195"",""line"":266},{""contract"":""ETHERAUK_1151"",""line"":158},{""contract"":""Ethereumscash_1658"",""line"":165},{""contract"":""RelayHub_5451"",""line"":1330},{""contract"":""Unipool_1030"",""line"":595}]"
+game,0,[]
+other,0,[]

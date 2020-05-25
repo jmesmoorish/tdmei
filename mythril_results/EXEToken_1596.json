@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nEXEToken_1596.sol:11:23: TypeError: Definition of base has to precede definition of derived contract\ncontract Stoppable is Ownable{\r\n                      ^-----^\n", "issues": []}

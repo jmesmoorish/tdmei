@@ -1,0 +1,5 @@
+type,count,contracts
+token,1,"[{""contract"":""KOLVote_2618"",""line"":394}]"
+defi,0,[]
+game,0,[]
+other,2,"[{""contract"":""DelegatedSending_5861"",""line"":1989},{""contract"":""EticaRelease_3466"",""line"":616}]"

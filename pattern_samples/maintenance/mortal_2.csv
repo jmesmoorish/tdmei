@@ -1,0 +1,5 @@
+type,count,contracts
+token,7,"[{""contract"":""CSPLSPLGatewayV11_1507"",""line"":2168},{""contract"":""DoDreamChain_1905"",""line"":235},{""contract"":""FountainTokenUpgrade_3486"",""line"":729},{""contract"":""ICNode_3699"",""line"":206},{""contract"":""SYNCContract_2381"",""line"":550},{""contract"":""VE_2745"",""line"":604},{""contract"":""YottaCoin_5079"",""line"":457}]"
+defi,8,"[{""contract"":""Aggregator_1751"",""line"":1150},{""contract"":""Aggregator_2289"",""line"":1150},{""contract"":""BoosterPack_661"",""line"":425},{""contract"":""CampaignBank_1180"",""line"":284},{""contract"":""CashQuestBot_4865"",""line"":83},{""contract"":""ChainBot4000_4811"",""line"":249},{""contract"":""MarketplaceElectron_712"",""line"":386},{""contract"":""UniSwapRemoveLiquityGeneral_v1_1481"",""line"":738}]"
+game,4,"[{""contract"":""Ethbus_1370"",""line"":7},{""contract"":""EthexLoto_1763"",""line"":7},{""contract"":""EthexLoto_105"",""line"":7},{""contract"":""SquareQueue_377"",""line"":445}]"
+other,3,"[{""contract"":""AccountCreator_822"",""line"":828},{""contract"":""DelegatedSending_5861"",""line"":2676},{""contract"":""Version_1080"",""line"":6}]"

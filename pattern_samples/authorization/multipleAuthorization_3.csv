@@ -1,0 +1,6 @@
+type,count,contracts
+2thousand,4,"[{""contract"":""AccountCreator_822"",""line"":766},{""contract"":""DoDreamChain_1905"",""line"":4},{""contract"":""FCTV_4807"",""line"":250},{""contract"":""PrivatixServiceContract_5562"",""line"":8}]"
+4thousand,1,"[{""contract"":""Token_2270"",""line"":56}]"
+6thousand,0,[]
+8thousand,0,[]
+10thousand,0,[]

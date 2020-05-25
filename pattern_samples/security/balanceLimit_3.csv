@@ -1,0 +1,6 @@
+type,count,contracts
+2thousand,6,"[{""contract"":""Ethereumscash_1658"",""line"":70},{""contract"":""F1DeltaCrate_911"",""line"":1080},{""contract"":""MakerV2Manager_2847"",""line"":677},{""contract"":""RelayHub_5451"",""line"":1337},{""contract"":""StakingContract_2171"",""line"":668},{""contract"":""TetherToken_2078"",""line"":533}]"
+4thousand,0,[]
+6thousand,0,[]
+8thousand,1,"[{""contract"":""TransferManager_2850"",""line"":676}]"
+10thousand,2,"[{""contract"":""Oracle_4469"",""line"":202},{""contract"":""TrueProfileLogic_4656"",""line"":126}]"

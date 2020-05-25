@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nOrchidLottery_2494.sol:233:46: TypeError: The \"chainid\" instruction is only available for Istanbul-compatible VMs  (you are currently compiling for \"petersburg\").\n        bytes32 ticket; assembly { ticket := chainid() }\r\n                                             ^-------^\n", "issues": []}

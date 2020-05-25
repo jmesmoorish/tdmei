@@ -1,0 +1,1115 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "name",
+            "source_mapping": {
+              "start": 15814,
+              "length": 18,
+              "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_relative": "Simbcoin_4450.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_short": "Simbcoin_4450.sol",
+              "is_dependency": false,
+              "lines": [
+                446
+              ],
+              "starting_column": 18,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 15801,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_relative": "Simbcoin_4450.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_short": "Simbcoin_4450.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    446,
+                    447,
+                    448,
+                    449,
+                    450
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 15484,
+                      "length": 1492,
+                      "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                      "filename_relative": "Simbcoin_4450.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                      "filename_short": "Simbcoin_4450.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        436,
+                        437,
+                        438,
+                        439,
+                        440,
+                        441,
+                        442,
+                        443,
+                        444,
+                        445,
+                        446,
+                        447,
+                        448,
+                        449,
+                        450,
+                        451,
+                        452,
+                        453,
+                        454,
+                        455,
+                        456,
+                        457,
+                        458,
+                        459,
+                        460,
+                        461,
+                        462,
+                        463,
+                        464,
+                        465,
+                        466,
+                        467,
+                        468,
+                        469,
+                        470,
+                        471,
+                        472,
+                        473,
+                        474,
+                        475,
+                        476,
+                        477,
+                        478,
+                        479,
+                        480,
+                        481,
+                        482
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "name",
+            "source_mapping": {
+              "start": 16038,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_relative": "Simbcoin_4450.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_short": "Simbcoin_4450.sol",
+              "is_dependency": false,
+              "lines": [
+                455,
+                456,
+                457
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 15484,
+                  "length": 1492,
+                  "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_relative": "Simbcoin_4450.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_short": "Simbcoin_4450.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    436,
+                    437,
+                    438,
+                    439,
+                    440,
+                    441,
+                    442,
+                    443,
+                    444,
+                    445,
+                    446,
+                    447,
+                    448,
+                    449,
+                    450,
+                    451,
+                    452,
+                    453,
+                    454,
+                    455,
+                    456,
+                    457,
+                    458,
+                    459,
+                    460,
+                    461,
+                    462,
+                    463,
+                    464,
+                    465,
+                    466,
+                    467,
+                    468,
+                    469,
+                    470,
+                    471,
+                    472,
+                    473,
+                    474,
+                    475,
+                    476,
+                    477,
+                    478,
+                    479,
+                    480,
+                    481,
+                    482
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "name()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).name (Simbcoin_4450.sol#446) shadows:\n\t- ERC20Detailed.name() (Simbcoin_4450.sol#455-457) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).name](Simbcoin_4450.sol#L446) shadows:\n\t- [ERC20Detailed.name()](Simbcoin_4450.sol#L455-L457) (function)\n",
+        "id": "cc79c402b72d738360f3eefe4386e6c2bf77198844db08fa7e421f821cc00851",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 15834,
+              "length": 20,
+              "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_relative": "Simbcoin_4450.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_short": "Simbcoin_4450.sol",
+              "is_dependency": false,
+              "lines": [
+                446
+              ],
+              "starting_column": 38,
+              "ending_column": 58
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 15801,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_relative": "Simbcoin_4450.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_short": "Simbcoin_4450.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    446,
+                    447,
+                    448,
+                    449,
+                    450
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 15484,
+                      "length": 1492,
+                      "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                      "filename_relative": "Simbcoin_4450.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                      "filename_short": "Simbcoin_4450.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        436,
+                        437,
+                        438,
+                        439,
+                        440,
+                        441,
+                        442,
+                        443,
+                        444,
+                        445,
+                        446,
+                        447,
+                        448,
+                        449,
+                        450,
+                        451,
+                        452,
+                        453,
+                        454,
+                        455,
+                        456,
+                        457,
+                        458,
+                        459,
+                        460,
+                        461,
+                        462,
+                        463,
+                        464,
+                        465,
+                        466,
+                        467,
+                        468,
+                        469,
+                        470,
+                        471,
+                        472,
+                        473,
+                        474,
+                        475,
+                        476,
+                        477,
+                        478,
+                        479,
+                        480,
+                        481,
+                        482
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 16240,
+              "length": 87,
+              "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_relative": "Simbcoin_4450.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_short": "Simbcoin_4450.sol",
+              "is_dependency": false,
+              "lines": [
+                463,
+                464,
+                465
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 15484,
+                  "length": 1492,
+                  "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_relative": "Simbcoin_4450.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_short": "Simbcoin_4450.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    436,
+                    437,
+                    438,
+                    439,
+                    440,
+                    441,
+                    442,
+                    443,
+                    444,
+                    445,
+                    446,
+                    447,
+                    448,
+                    449,
+                    450,
+                    451,
+                    452,
+                    453,
+                    454,
+                    455,
+                    456,
+                    457,
+                    458,
+                    459,
+                    460,
+                    461,
+                    462,
+                    463,
+                    464,
+                    465,
+                    466,
+                    467,
+                    468,
+                    469,
+                    470,
+                    471,
+                    472,
+                    473,
+                    474,
+                    475,
+                    476,
+                    477,
+                    478,
+                    479,
+                    480,
+                    481,
+                    482
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "symbol()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).symbol (Simbcoin_4450.sol#446) shadows:\n\t- ERC20Detailed.symbol() (Simbcoin_4450.sol#463-465) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).symbol](Simbcoin_4450.sol#L446) shadows:\n\t- [ERC20Detailed.symbol()](Simbcoin_4450.sol#L463-L465) (function)\n",
+        "id": "8001ef8aa02973c3b50a70701dd29bd34da99677c332f5ece9c5ad02f96df070",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 15856,
+              "length": 14,
+              "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_relative": "Simbcoin_4450.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_short": "Simbcoin_4450.sol",
+              "is_dependency": false,
+              "lines": [
+                446
+              ],
+              "starting_column": 60,
+              "ending_column": 74
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 15801,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_relative": "Simbcoin_4450.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_short": "Simbcoin_4450.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    446,
+                    447,
+                    448,
+                    449,
+                    450
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 15484,
+                      "length": 1492,
+                      "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                      "filename_relative": "Simbcoin_4450.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                      "filename_short": "Simbcoin_4450.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        436,
+                        437,
+                        438,
+                        439,
+                        440,
+                        441,
+                        442,
+                        443,
+                        444,
+                        445,
+                        446,
+                        447,
+                        448,
+                        449,
+                        450,
+                        451,
+                        452,
+                        453,
+                        454,
+                        455,
+                        456,
+                        457,
+                        458,
+                        459,
+                        460,
+                        461,
+                        462,
+                        463,
+                        464,
+                        465,
+                        466,
+                        467,
+                        468,
+                        469,
+                        470,
+                        471,
+                        472,
+                        473,
+                        474,
+                        475,
+                        476,
+                        477,
+                        478,
+                        479,
+                        480,
+                        481,
+                        482
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 16890,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_relative": "Simbcoin_4450.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_short": "Simbcoin_4450.sol",
+              "is_dependency": false,
+              "lines": [
+                479,
+                480,
+                481
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 15484,
+                  "length": 1492,
+                  "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_relative": "Simbcoin_4450.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_short": "Simbcoin_4450.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    436,
+                    437,
+                    438,
+                    439,
+                    440,
+                    441,
+                    442,
+                    443,
+                    444,
+                    445,
+                    446,
+                    447,
+                    448,
+                    449,
+                    450,
+                    451,
+                    452,
+                    453,
+                    454,
+                    455,
+                    456,
+                    457,
+                    458,
+                    459,
+                    460,
+                    461,
+                    462,
+                    463,
+                    464,
+                    465,
+                    466,
+                    467,
+                    468,
+                    469,
+                    470,
+                    471,
+                    472,
+                    473,
+                    474,
+                    475,
+                    476,
+                    477,
+                    478,
+                    479,
+                    480,
+                    481,
+                    482
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "decimals()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).decimals (Simbcoin_4450.sol#446) shadows:\n\t- ERC20Detailed.decimals() (Simbcoin_4450.sol#479-481) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).decimals](Simbcoin_4450.sol#L446) shadows:\n\t- [ERC20Detailed.decimals()](Simbcoin_4450.sol#L479-L481) (function)\n",
+        "id": "9845f20fbb5426ca76f8323c89209ef9241cc258bb2d3177ffb8d85a5b354720",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_name",
+            "source_mapping": {
+              "start": 19625,
+              "length": 19,
+              "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_relative": "Simbcoin_4450.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_short": "Simbcoin_4450.sol",
+              "is_dependency": false,
+              "lines": [
+                580
+              ],
+              "starting_column": 18,
+              "ending_column": 37
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 19612,
+                  "length": 224,
+                  "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_relative": "Simbcoin_4450.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_short": "Simbcoin_4450.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    580,
+                    581,
+                    582
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Simbcoin",
+                    "source_mapping": {
+                      "start": 19461,
+                      "length": 378,
+                      "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                      "filename_relative": "Simbcoin_4450.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                      "filename_short": "Simbcoin_4450.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        575,
+                        576,
+                        577,
+                        578,
+                        579,
+                        580,
+                        581,
+                        582,
+                        583
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8,uint256)"
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "_name",
+            "source_mapping": {
+              "start": 15524,
+              "length": 20,
+              "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_relative": "Simbcoin_4450.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_short": "Simbcoin_4450.sol",
+              "is_dependency": false,
+              "lines": [
+                437
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 15484,
+                  "length": 1492,
+                  "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_relative": "Simbcoin_4450.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_short": "Simbcoin_4450.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    436,
+                    437,
+                    438,
+                    439,
+                    440,
+                    441,
+                    442,
+                    443,
+                    444,
+                    445,
+                    446,
+                    447,
+                    448,
+                    449,
+                    450,
+                    451,
+                    452,
+                    453,
+                    454,
+                    455,
+                    456,
+                    457,
+                    458,
+                    459,
+                    460,
+                    461,
+                    462,
+                    463,
+                    464,
+                    465,
+                    466,
+                    467,
+                    468,
+                    469,
+                    470,
+                    471,
+                    472,
+                    473,
+                    474,
+                    475,
+                    476,
+                    477,
+                    478,
+                    479,
+                    480,
+                    481,
+                    482
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "Simbcoin.constructor(string,string,uint8,uint256)._name (Simbcoin_4450.sol#580) shadows:\n\t- ERC20Detailed._name (Simbcoin_4450.sol#437) (state variable)\n",
+        "markdown": "[Simbcoin.constructor(string,string,uint8,uint256)._name](Simbcoin_4450.sol#L580) shadows:\n\t- [ERC20Detailed._name](Simbcoin_4450.sol#L437) (state variable)\n",
+        "id": "9764478f60226a532061b6247d2e093770afd297d8fd9f3bc2c144a9e4b024a7",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_symbol",
+            "source_mapping": {
+              "start": 19646,
+              "length": 21,
+              "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_relative": "Simbcoin_4450.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_short": "Simbcoin_4450.sol",
+              "is_dependency": false,
+              "lines": [
+                580
+              ],
+              "starting_column": 39,
+              "ending_column": 60
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 19612,
+                  "length": 224,
+                  "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_relative": "Simbcoin_4450.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_short": "Simbcoin_4450.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    580,
+                    581,
+                    582
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Simbcoin",
+                    "source_mapping": {
+                      "start": 19461,
+                      "length": 378,
+                      "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                      "filename_relative": "Simbcoin_4450.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                      "filename_short": "Simbcoin_4450.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        575,
+                        576,
+                        577,
+                        578,
+                        579,
+                        580,
+                        581,
+                        582,
+                        583
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8,uint256)"
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "_symbol",
+            "source_mapping": {
+              "start": 15551,
+              "length": 22,
+              "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_relative": "Simbcoin_4450.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_short": "Simbcoin_4450.sol",
+              "is_dependency": false,
+              "lines": [
+                438
+              ],
+              "starting_column": 5,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 15484,
+                  "length": 1492,
+                  "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_relative": "Simbcoin_4450.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_short": "Simbcoin_4450.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    436,
+                    437,
+                    438,
+                    439,
+                    440,
+                    441,
+                    442,
+                    443,
+                    444,
+                    445,
+                    446,
+                    447,
+                    448,
+                    449,
+                    450,
+                    451,
+                    452,
+                    453,
+                    454,
+                    455,
+                    456,
+                    457,
+                    458,
+                    459,
+                    460,
+                    461,
+                    462,
+                    463,
+                    464,
+                    465,
+                    466,
+                    467,
+                    468,
+                    469,
+                    470,
+                    471,
+                    472,
+                    473,
+                    474,
+                    475,
+                    476,
+                    477,
+                    478,
+                    479,
+                    480,
+                    481,
+                    482
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "Simbcoin.constructor(string,string,uint8,uint256)._symbol (Simbcoin_4450.sol#580) shadows:\n\t- ERC20Detailed._symbol (Simbcoin_4450.sol#438) (state variable)\n",
+        "markdown": "[Simbcoin.constructor(string,string,uint8,uint256)._symbol](Simbcoin_4450.sol#L580) shadows:\n\t- [ERC20Detailed._symbol](Simbcoin_4450.sol#L438) (state variable)\n",
+        "id": "7fbb5340f20d98987d81dd20ea3760395c03c500699b4900338cb3a37c36345a",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_decimals",
+            "source_mapping": {
+              "start": 19669,
+              "length": 15,
+              "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_relative": "Simbcoin_4450.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_short": "Simbcoin_4450.sol",
+              "is_dependency": false,
+              "lines": [
+                580
+              ],
+              "starting_column": 62,
+              "ending_column": 77
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 19612,
+                  "length": 224,
+                  "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_relative": "Simbcoin_4450.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_short": "Simbcoin_4450.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    580,
+                    581,
+                    582
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "Simbcoin",
+                    "source_mapping": {
+                      "start": 19461,
+                      "length": 378,
+                      "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                      "filename_relative": "Simbcoin_4450.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                      "filename_short": "Simbcoin_4450.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        575,
+                        576,
+                        577,
+                        578,
+                        579,
+                        580,
+                        581,
+                        582,
+                        583
+                      ],
+                      "starting_column": 1,
+                      "ending_column": null
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8,uint256)"
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "_decimals",
+            "source_mapping": {
+              "start": 15580,
+              "length": 23,
+              "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_relative": "Simbcoin_4450.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+              "filename_short": "Simbcoin_4450.sol",
+              "is_dependency": false,
+              "lines": [
+                439
+              ],
+              "starting_column": 5,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 15484,
+                  "length": 1492,
+                  "filename_used": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_relative": "Simbcoin_4450.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/Simbcoin_4450.sol",
+                  "filename_short": "Simbcoin_4450.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    436,
+                    437,
+                    438,
+                    439,
+                    440,
+                    441,
+                    442,
+                    443,
+                    444,
+                    445,
+                    446,
+                    447,
+                    448,
+                    449,
+                    450,
+                    451,
+                    452,
+                    453,
+                    454,
+                    455,
+                    456,
+                    457,
+                    458,
+                    459,
+                    460,
+                    461,
+                    462,
+                    463,
+                    464,
+                    465,
+                    466,
+                    467,
+                    468,
+                    469,
+                    470,
+                    471,
+                    472,
+                    473,
+                    474,
+                    475,
+                    476,
+                    477,
+                    478,
+                    479,
+                    480,
+                    481,
+                    482
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "Simbcoin.constructor(string,string,uint8,uint256)._decimals (Simbcoin_4450.sol#580) shadows:\n\t- ERC20Detailed._decimals (Simbcoin_4450.sol#439) (state variable)\n",
+        "markdown": "[Simbcoin.constructor(string,string,uint8,uint256)._decimals](Simbcoin_4450.sol#L580) shadows:\n\t- [ERC20Detailed._decimals](Simbcoin_4450.sol#L439) (state variable)\n",
+        "id": "b26c4544fc778c422df7d8f63446ffd00bafe976b18a74dbaed5aef4cdfdde5e",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      }
+    ]
+  }
+}

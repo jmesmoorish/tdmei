@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nCreativesRegistry_2807.sol:48:14: ParserError: Expected identifier, got 'LParen'\n  constructor() internal {\r\n             ^\n", "issues": []}

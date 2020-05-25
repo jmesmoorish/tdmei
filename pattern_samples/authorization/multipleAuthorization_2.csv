@@ -1,0 +1,5 @@
+type,count,contracts
+token,3,"[{""contract"":""DoDreamChain_1905"",""line"":4},{""contract"":""FCTV_4807"",""line"":250},{""contract"":""Token_2270"",""line"":56}]"
+defi,0,[]
+game,0,[]
+other,2,"[{""contract"":""AccountCreator_822"",""line"":766},{""contract"":""PrivatixServiceContract_5562"",""line"":8}]"

@@ -1,0 +1,5 @@
+{
+  "success": false,
+  "error": "Ternary operation not handled ! updateBalances(t.futuresContract,(t.baseToken,t.maker,tv.pool),if ! tv.makerBoolValues[0] && ! tv.makerBoolValues[2] then t.makerInversePositionHash else t.makerPositionHash,(tv.qty,t.makerPrice,tv.makerFee,tv.makerProfit,tv.makerLoss,tv.makerBalance,0,tv.makerReserve,t.makerLeverage),tv.makerBoolValues)(<class 'slither.core.expressions.unary_operation.UnaryOperation'>)",
+  "results": {}
+}

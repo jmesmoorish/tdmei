@@ -1,0 +1,536 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "name",
+            "source_mapping": {
+              "start": 12392,
+              "length": 18,
+              "filename_used": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+              "filename_relative": "ERC20Token_648.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+              "filename_short": "ERC20Token_648.sol",
+              "is_dependency": false,
+              "lines": [
+                329
+              ],
+              "starting_column": 18,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 12379,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                  "filename_relative": "ERC20Token_648.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                  "filename_short": "ERC20Token_648.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    329,
+                    330,
+                    331,
+                    332,
+                    333
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 12251,
+                      "length": 762,
+                      "filename_used": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                      "filename_relative": "ERC20Token_648.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                      "filename_short": "ERC20Token_648.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        324,
+                        325,
+                        326,
+                        327,
+                        328,
+                        329,
+                        330,
+                        331,
+                        332,
+                        333,
+                        334,
+                        335,
+                        336,
+                        337,
+                        338,
+                        339,
+                        340,
+                        341,
+                        342,
+                        343,
+                        344,
+                        345,
+                        346,
+                        347,
+                        348,
+                        349,
+                        350,
+                        351,
+                        352,
+                        353,
+                        354,
+                        355
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "name",
+            "source_mapping": {
+              "start": 12611,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+              "filename_relative": "ERC20Token_648.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+              "filename_short": "ERC20Token_648.sol",
+              "is_dependency": false,
+              "lines": [
+                338,
+                339,
+                340
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 12251,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                  "filename_relative": "ERC20Token_648.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                  "filename_short": "ERC20Token_648.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    324,
+                    325,
+                    326,
+                    327,
+                    328,
+                    329,
+                    330,
+                    331,
+                    332,
+                    333,
+                    334,
+                    335,
+                    336,
+                    337,
+                    338,
+                    339,
+                    340,
+                    341,
+                    342,
+                    343,
+                    344,
+                    345,
+                    346,
+                    347,
+                    348,
+                    349,
+                    350,
+                    351,
+                    352,
+                    353,
+                    354,
+                    355
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "name()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).name (ERC20Token_648.sol#329) shadows:\n\t- ERC20Detailed.name() (ERC20Token_648.sol#338-340) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).name](ERC20Token_648.sol#L329) shadows:\n\t- [ERC20Detailed.name()](ERC20Token_648.sol#L338-L340) (function)\n",
+        "id": "cc79c402b72d738360f3eefe4386e6c2bf77198844db08fa7e421f821cc00851",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 12412,
+              "length": 20,
+              "filename_used": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+              "filename_relative": "ERC20Token_648.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+              "filename_short": "ERC20Token_648.sol",
+              "is_dependency": false,
+              "lines": [
+                329
+              ],
+              "starting_column": 38,
+              "ending_column": 58
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 12379,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                  "filename_relative": "ERC20Token_648.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                  "filename_short": "ERC20Token_648.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    329,
+                    330,
+                    331,
+                    332,
+                    333
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 12251,
+                      "length": 762,
+                      "filename_used": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                      "filename_relative": "ERC20Token_648.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                      "filename_short": "ERC20Token_648.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        324,
+                        325,
+                        326,
+                        327,
+                        328,
+                        329,
+                        330,
+                        331,
+                        332,
+                        333,
+                        334,
+                        335,
+                        336,
+                        337,
+                        338,
+                        339,
+                        340,
+                        341,
+                        342,
+                        343,
+                        344,
+                        345,
+                        346,
+                        347,
+                        348,
+                        349,
+                        350,
+                        351,
+                        352,
+                        353,
+                        354,
+                        355
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 12761,
+              "length": 87,
+              "filename_used": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+              "filename_relative": "ERC20Token_648.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+              "filename_short": "ERC20Token_648.sol",
+              "is_dependency": false,
+              "lines": [
+                345,
+                346,
+                347
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 12251,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                  "filename_relative": "ERC20Token_648.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                  "filename_short": "ERC20Token_648.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    324,
+                    325,
+                    326,
+                    327,
+                    328,
+                    329,
+                    330,
+                    331,
+                    332,
+                    333,
+                    334,
+                    335,
+                    336,
+                    337,
+                    338,
+                    339,
+                    340,
+                    341,
+                    342,
+                    343,
+                    344,
+                    345,
+                    346,
+                    347,
+                    348,
+                    349,
+                    350,
+                    351,
+                    352,
+                    353,
+                    354,
+                    355
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "symbol()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).symbol (ERC20Token_648.sol#329) shadows:\n\t- ERC20Detailed.symbol() (ERC20Token_648.sol#345-347) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).symbol](ERC20Token_648.sol#L329) shadows:\n\t- [ERC20Detailed.symbol()](ERC20Token_648.sol#L345-L347) (function)\n",
+        "id": "8001ef8aa02973c3b50a70701dd29bd34da99677c332f5ece9c5ad02f96df070",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 12434,
+              "length": 14,
+              "filename_used": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+              "filename_relative": "ERC20Token_648.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+              "filename_short": "ERC20Token_648.sol",
+              "is_dependency": false,
+              "lines": [
+                329
+              ],
+              "starting_column": 60,
+              "ending_column": 74
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 12379,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                  "filename_relative": "ERC20Token_648.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                  "filename_short": "ERC20Token_648.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    329,
+                    330,
+                    331,
+                    332,
+                    333
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 12251,
+                      "length": 762,
+                      "filename_used": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                      "filename_relative": "ERC20Token_648.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                      "filename_short": "ERC20Token_648.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        324,
+                        325,
+                        326,
+                        327,
+                        328,
+                        329,
+                        330,
+                        331,
+                        332,
+                        333,
+                        334,
+                        335,
+                        336,
+                        337,
+                        338,
+                        339,
+                        340,
+                        341,
+                        342,
+                        343,
+                        344,
+                        345,
+                        346,
+                        347,
+                        348,
+                        349,
+                        350,
+                        351,
+                        352,
+                        353,
+                        354,
+                        355
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 12927,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+              "filename_relative": "ERC20Token_648.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+              "filename_short": "ERC20Token_648.sol",
+              "is_dependency": false,
+              "lines": [
+                352,
+                353,
+                354
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 12251,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                  "filename_relative": "ERC20Token_648.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/ERC20Token_648.sol",
+                  "filename_short": "ERC20Token_648.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    324,
+                    325,
+                    326,
+                    327,
+                    328,
+                    329,
+                    330,
+                    331,
+                    332,
+                    333,
+                    334,
+                    335,
+                    336,
+                    337,
+                    338,
+                    339,
+                    340,
+                    341,
+                    342,
+                    343,
+                    344,
+                    345,
+                    346,
+                    347,
+                    348,
+                    349,
+                    350,
+                    351,
+                    352,
+                    353,
+                    354,
+                    355
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "decimals()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).decimals (ERC20Token_648.sol#329) shadows:\n\t- ERC20Detailed.decimals() (ERC20Token_648.sol#352-354) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).decimals](ERC20Token_648.sol#L329) shadows:\n\t- [ERC20Detailed.decimals()](ERC20Token_648.sol#L352-L354) (function)\n",
+        "id": "9845f20fbb5426ca76f8323c89209ef9241cc258bb2d3177ffb8d85a5b354720",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      }
+    ]
+  }
+}

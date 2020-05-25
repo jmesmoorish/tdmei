@@ -1,0 +1,536 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "name",
+            "source_mapping": {
+              "start": 12144,
+              "length": 18,
+              "filename_used": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+              "filename_relative": "NightlightToken_2149.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+              "filename_short": "NightlightToken_2149.sol",
+              "is_dependency": false,
+              "lines": [
+                401
+              ],
+              "starting_column": 18,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 12131,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                  "filename_relative": "NightlightToken_2149.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                  "filename_short": "NightlightToken_2149.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    401,
+                    402,
+                    403,
+                    404,
+                    405
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 12003,
+                      "length": 762,
+                      "filename_used": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                      "filename_relative": "NightlightToken_2149.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                      "filename_short": "NightlightToken_2149.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        396,
+                        397,
+                        398,
+                        399,
+                        400,
+                        401,
+                        402,
+                        403,
+                        404,
+                        405,
+                        406,
+                        407,
+                        408,
+                        409,
+                        410,
+                        411,
+                        412,
+                        413,
+                        414,
+                        415,
+                        416,
+                        417,
+                        418,
+                        419,
+                        420,
+                        421,
+                        422,
+                        423,
+                        424,
+                        425,
+                        426,
+                        427
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "name",
+            "source_mapping": {
+              "start": 12363,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+              "filename_relative": "NightlightToken_2149.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+              "filename_short": "NightlightToken_2149.sol",
+              "is_dependency": false,
+              "lines": [
+                410,
+                411,
+                412
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 12003,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                  "filename_relative": "NightlightToken_2149.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                  "filename_short": "NightlightToken_2149.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    396,
+                    397,
+                    398,
+                    399,
+                    400,
+                    401,
+                    402,
+                    403,
+                    404,
+                    405,
+                    406,
+                    407,
+                    408,
+                    409,
+                    410,
+                    411,
+                    412,
+                    413,
+                    414,
+                    415,
+                    416,
+                    417,
+                    418,
+                    419,
+                    420,
+                    421,
+                    422,
+                    423,
+                    424,
+                    425,
+                    426,
+                    427
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "name()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).name (NightlightToken_2149.sol#401) shadows:\n\t- ERC20Detailed.name() (NightlightToken_2149.sol#410-412) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).name](NightlightToken_2149.sol#L401) shadows:\n\t- [ERC20Detailed.name()](NightlightToken_2149.sol#L410-L412) (function)\n",
+        "id": "cc79c402b72d738360f3eefe4386e6c2bf77198844db08fa7e421f821cc00851",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 12164,
+              "length": 20,
+              "filename_used": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+              "filename_relative": "NightlightToken_2149.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+              "filename_short": "NightlightToken_2149.sol",
+              "is_dependency": false,
+              "lines": [
+                401
+              ],
+              "starting_column": 38,
+              "ending_column": 58
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 12131,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                  "filename_relative": "NightlightToken_2149.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                  "filename_short": "NightlightToken_2149.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    401,
+                    402,
+                    403,
+                    404,
+                    405
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 12003,
+                      "length": 762,
+                      "filename_used": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                      "filename_relative": "NightlightToken_2149.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                      "filename_short": "NightlightToken_2149.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        396,
+                        397,
+                        398,
+                        399,
+                        400,
+                        401,
+                        402,
+                        403,
+                        404,
+                        405,
+                        406,
+                        407,
+                        408,
+                        409,
+                        410,
+                        411,
+                        412,
+                        413,
+                        414,
+                        415,
+                        416,
+                        417,
+                        418,
+                        419,
+                        420,
+                        421,
+                        422,
+                        423,
+                        424,
+                        425,
+                        426,
+                        427
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 12513,
+              "length": 87,
+              "filename_used": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+              "filename_relative": "NightlightToken_2149.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+              "filename_short": "NightlightToken_2149.sol",
+              "is_dependency": false,
+              "lines": [
+                417,
+                418,
+                419
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 12003,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                  "filename_relative": "NightlightToken_2149.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                  "filename_short": "NightlightToken_2149.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    396,
+                    397,
+                    398,
+                    399,
+                    400,
+                    401,
+                    402,
+                    403,
+                    404,
+                    405,
+                    406,
+                    407,
+                    408,
+                    409,
+                    410,
+                    411,
+                    412,
+                    413,
+                    414,
+                    415,
+                    416,
+                    417,
+                    418,
+                    419,
+                    420,
+                    421,
+                    422,
+                    423,
+                    424,
+                    425,
+                    426,
+                    427
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "symbol()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).symbol (NightlightToken_2149.sol#401) shadows:\n\t- ERC20Detailed.symbol() (NightlightToken_2149.sol#417-419) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).symbol](NightlightToken_2149.sol#L401) shadows:\n\t- [ERC20Detailed.symbol()](NightlightToken_2149.sol#L417-L419) (function)\n",
+        "id": "8001ef8aa02973c3b50a70701dd29bd34da99677c332f5ece9c5ad02f96df070",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 12186,
+              "length": 14,
+              "filename_used": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+              "filename_relative": "NightlightToken_2149.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+              "filename_short": "NightlightToken_2149.sol",
+              "is_dependency": false,
+              "lines": [
+                401
+              ],
+              "starting_column": 60,
+              "ending_column": 74
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 12131,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                  "filename_relative": "NightlightToken_2149.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                  "filename_short": "NightlightToken_2149.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    401,
+                    402,
+                    403,
+                    404,
+                    405
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 12003,
+                      "length": 762,
+                      "filename_used": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                      "filename_relative": "NightlightToken_2149.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                      "filename_short": "NightlightToken_2149.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        396,
+                        397,
+                        398,
+                        399,
+                        400,
+                        401,
+                        402,
+                        403,
+                        404,
+                        405,
+                        406,
+                        407,
+                        408,
+                        409,
+                        410,
+                        411,
+                        412,
+                        413,
+                        414,
+                        415,
+                        416,
+                        417,
+                        418,
+                        419,
+                        420,
+                        421,
+                        422,
+                        423,
+                        424,
+                        425,
+                        426,
+                        427
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 12679,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+              "filename_relative": "NightlightToken_2149.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+              "filename_short": "NightlightToken_2149.sol",
+              "is_dependency": false,
+              "lines": [
+                424,
+                425,
+                426
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 12003,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                  "filename_relative": "NightlightToken_2149.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/NightlightToken_2149.sol",
+                  "filename_short": "NightlightToken_2149.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    396,
+                    397,
+                    398,
+                    399,
+                    400,
+                    401,
+                    402,
+                    403,
+                    404,
+                    405,
+                    406,
+                    407,
+                    408,
+                    409,
+                    410,
+                    411,
+                    412,
+                    413,
+                    414,
+                    415,
+                    416,
+                    417,
+                    418,
+                    419,
+                    420,
+                    421,
+                    422,
+                    423,
+                    424,
+                    425,
+                    426,
+                    427
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "decimals()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).decimals (NightlightToken_2149.sol#401) shadows:\n\t- ERC20Detailed.decimals() (NightlightToken_2149.sol#424-426) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).decimals](NightlightToken_2149.sol#L401) shadows:\n\t- [ERC20Detailed.decimals()](NightlightToken_2149.sol#L424-L426) (function)\n",
+        "id": "9845f20fbb5426ca76f8323c89209ef9241cc258bb2d3177ffb8d85a5b354720",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      }
+    ]
+  }
+}

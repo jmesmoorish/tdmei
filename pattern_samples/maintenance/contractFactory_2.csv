@@ -1,0 +1,5 @@
+type,count,contracts
+token,1,"[{""contract"":""HedgeContract_1066"",""line"":654}]"
+defi,5,"[{""contract"":""DharmaKeyRingFactoryV2_3976"",""line"":213},{""contract"":""DharmaSmartWalletFactoryV1_4707"",""line"":123},{""contract"":""LinkdropFactory_4753"",""line"":915},{""contract"":""OracleFactory_4365"",""line"":621},{""contract"":""UniswapEX_4696"",""line"":339}]"
+game,2,"[{""contract"":""EthexLoto_1763"",""line"":1102},{""contract"":""EthexLoto_105"",""line"":1102}]"
+other,5,"[{""contract"":""AppProxyUpgradeable_2399"",""line"":1044},{""contract"":""AppProxyUpgradeable_2399"",""line"":2422},{""contract"":""AppProxyUpgradeable_2399"",""line"":2468},{""contract"":""ProxyFactory_2261"",""line"":60},{""contract"":""Version_1080"",""line"":4}]"

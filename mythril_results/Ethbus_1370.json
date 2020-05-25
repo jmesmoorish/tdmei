@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nEthbus_1370.sol:164:20: TypeError: Definition of base has to precede definition of derived contract\ncontract Ethbus is usingProvable, Rewardable, Destructible {\r\n                   ^-----------^\n", "issues": []}

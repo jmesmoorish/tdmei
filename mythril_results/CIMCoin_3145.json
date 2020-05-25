@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nCIMCoin_3145.sol:113:13: ParserError: Expected identifier, got 'LParen'\n\tconstructor(uint256 _lockupTime ) public\r\n\t           ^\n", "issues": []}

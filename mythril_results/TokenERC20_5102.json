@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nTokenERC20_5102.sol:4:92: ParserError: Expected token Comma got 'Identifier'\n    function receiveApproval(address _from, uint256 _value, address _token, bytes calldata _extraData) external; \r\n                                                                                           ^\n", "issues": []}

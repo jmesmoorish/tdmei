@@ -1,0 +1,190 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "exit",
+            "source_mapping": {
+              "start": 6505,
+              "length": 195,
+              "filename_used": "/home/tiago/Desktop/slither_2/DaiJoin_3295.sol",
+              "filename_relative": "DaiJoin_3295.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/DaiJoin_3295.sol",
+              "filename_short": "DaiJoin_3295.sol",
+              "is_dependency": false,
+              "lines": [
+                179,
+                180,
+                181,
+                182,
+                183
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ETHJoin",
+                "source_mapping": {
+                  "start": 5611,
+                  "length": 1092,
+                  "filename_used": "/home/tiago/Desktop/slither_2/DaiJoin_3295.sol",
+                  "filename_relative": "DaiJoin_3295.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/DaiJoin_3295.sol",
+                  "filename_short": "DaiJoin_3295.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    151,
+                    152,
+                    153,
+                    154,
+                    155,
+                    156,
+                    157,
+                    158,
+                    159,
+                    160,
+                    161,
+                    162,
+                    163,
+                    164,
+                    165,
+                    166,
+                    167,
+                    168,
+                    169,
+                    170,
+                    171,
+                    172,
+                    173,
+                    174,
+                    175,
+                    176,
+                    177,
+                    178,
+                    179,
+                    180,
+                    181,
+                    182,
+                    183,
+                    184
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "exit(address,uint256)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "usr.transfer(wad)",
+            "source_mapping": {
+              "start": 6675,
+              "length": 17,
+              "filename_used": "/home/tiago/Desktop/slither_2/DaiJoin_3295.sol",
+              "filename_relative": "DaiJoin_3295.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/DaiJoin_3295.sol",
+              "filename_short": "DaiJoin_3295.sol",
+              "is_dependency": false,
+              "lines": [
+                182
+              ],
+              "starting_column": 9,
+              "ending_column": 26
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "exit",
+                "source_mapping": {
+                  "start": 6505,
+                  "length": 195,
+                  "filename_used": "/home/tiago/Desktop/slither_2/DaiJoin_3295.sol",
+                  "filename_relative": "DaiJoin_3295.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/DaiJoin_3295.sol",
+                  "filename_short": "DaiJoin_3295.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    179,
+                    180,
+                    181,
+                    182,
+                    183
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ETHJoin",
+                    "source_mapping": {
+                      "start": 5611,
+                      "length": 1092,
+                      "filename_used": "/home/tiago/Desktop/slither_2/DaiJoin_3295.sol",
+                      "filename_relative": "DaiJoin_3295.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/DaiJoin_3295.sol",
+                      "filename_short": "DaiJoin_3295.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        151,
+                        152,
+                        153,
+                        154,
+                        155,
+                        156,
+                        157,
+                        158,
+                        159,
+                        160,
+                        161,
+                        162,
+                        163,
+                        164,
+                        165,
+                        166,
+                        167,
+                        168,
+                        169,
+                        170,
+                        171,
+                        172,
+                        173,
+                        174,
+                        175,
+                        176,
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182,
+                        183,
+                        184
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "exit(address,uint256)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "ETHJoin.exit(address,uint256) (DaiJoin_3295.sol#179-183) sends eth to arbitrary user\n\tDangerous calls:\n\t- usr.transfer(wad) (DaiJoin_3295.sol#182)\n",
+        "markdown": "[ETHJoin.exit(address,uint256)](DaiJoin_3295.sol#L179-L183) sends eth to arbitrary user\n\tDangerous calls:\n\t- [usr.transfer(wad)](DaiJoin_3295.sol#L182)\n",
+        "id": "e26463753dba72f112206fe8e3bdb50a409083663ec8d03002c36a940ed8a9b3",
+        "check": "arbitrary-send",
+        "impact": "High",
+        "confidence": "Medium"
+      }
+    ]
+  }
+}

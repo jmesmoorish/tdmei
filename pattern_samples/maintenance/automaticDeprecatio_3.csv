@@ -1,0 +1,6 @@
+type,count,contracts
+2thousand,12,"[{""contract"":""AccountLogic_1962"",""line"":739},{""contract"":""AccountCreator_822"",""line"":527},{""contract"":""Curvepool_473"",""line"":589},{""contract"":""GtanToken_472"",""line"":383},{""contract"":""HashTimeLock_1912"",""line"":78},{""contract"":""HedgeContract_1066"",""line"":722},{""contract"":""IOCrypto_5033"",""line"":70},{""contract"":""IzeToken_1884"",""line"":476},{""contract"":""PrivatixServiceContract_5562"",""line"":20},{""contract"":""Smartex_4754"",""line"":20},{""contract"":""Smartlevel_3010"",""line"":25},{""contract"":""TetherToken_2078"",""line"":658}]"
+4thousand,1,"[{""contract"":""Unipool_1030"",""line"":592}]"
+6thousand,0,[]
+8thousand,0,[]
+10thousand,1,"[{""contract"":""Oracle_4469"",""line"":201}]"

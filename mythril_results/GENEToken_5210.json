@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nGENEToken_5210.sol:102:13: ParserError: Expected identifier, got 'Payable'\n    address payable public ethFundDeposit;  // ETH\u5b58\u653e\u5730\u5740\r\n            ^\n", "issues": []}

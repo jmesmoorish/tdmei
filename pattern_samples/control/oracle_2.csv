@@ -1,0 +1,5 @@
+type,count,contracts
+token,1,"[{""contract"":""AToken_2035"",""line"":2015}]"
+defi,13,"[{""contract"":""Aggregator_1751"",""line"":373},{""contract"":""Aggregator_2289"",""line"":373},{""contract"":""CashQuestBot_4865"",""line"":44},{""contract"":""DMEX_Oracle_1196"",""line"":20},{""contract"":""DMEX_Trading_1195"",""line"":81},{""contract"":""MedianBATUSD_3356"",""line"":66},{""contract"":""Oracle_5372"",""line"":2733},{""contract"":""Oracle_4469"",""line"":127},{""contract"":""OracleFactory_4365"",""line"":383},{""contract"":""RampInstantEthEscrows_2773"",""line"":148},{""contract"":""RampInstantTokenEscrows_2772"",""line"":192},{""contract"":""SmartexCrowdsale_286"",""line"":384},{""contract"":""SmartexExchange_123"",""line"":239}]"
+game,1,"[{""contract"":""SquareQueue_377"",""line"":40}]"
+other,2,"[{""contract"":""AppProxyUpgradeable_2399"",""line"":1658},{""contract"":""TokenProxy_3653"",""line"":890}]"

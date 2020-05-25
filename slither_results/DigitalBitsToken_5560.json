@@ -1,0 +1,536 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "name",
+            "source_mapping": {
+              "start": 10335,
+              "length": 11,
+              "filename_used": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+              "filename_relative": "DigitalBitsToken_5560.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+              "filename_short": "DigitalBitsToken_5560.sol",
+              "is_dependency": false,
+              "lines": [
+                335
+              ],
+              "starting_column": 15,
+              "ending_column": 26
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 10323,
+                  "length": 138,
+                  "filename_used": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                  "filename_relative": "DigitalBitsToken_5560.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                  "filename_short": "DigitalBitsToken_5560.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    335,
+                    336,
+                    337,
+                    338,
+                    339
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 10203,
+                      "length": 666,
+                      "filename_used": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                      "filename_relative": "DigitalBitsToken_5560.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                      "filename_short": "DigitalBitsToken_5560.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        330,
+                        331,
+                        332,
+                        333,
+                        334,
+                        335,
+                        336,
+                        337,
+                        338,
+                        339,
+                        340,
+                        341,
+                        342,
+                        343,
+                        344,
+                        345,
+                        346,
+                        347,
+                        348,
+                        349,
+                        350,
+                        351,
+                        352,
+                        353,
+                        354,
+                        355,
+                        356,
+                        357,
+                        358,
+                        359,
+                        360,
+                        361
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "name",
+            "source_mapping": {
+              "start": 10518,
+              "length": 69,
+              "filename_used": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+              "filename_relative": "DigitalBitsToken_5560.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+              "filename_short": "DigitalBitsToken_5560.sol",
+              "is_dependency": false,
+              "lines": [
+                344,
+                345,
+                346
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 10203,
+                  "length": 666,
+                  "filename_used": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                  "filename_relative": "DigitalBitsToken_5560.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                  "filename_short": "DigitalBitsToken_5560.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    330,
+                    331,
+                    332,
+                    333,
+                    334,
+                    335,
+                    336,
+                    337,
+                    338,
+                    339,
+                    340,
+                    341,
+                    342,
+                    343,
+                    344,
+                    345,
+                    346,
+                    347,
+                    348,
+                    349,
+                    350,
+                    351,
+                    352,
+                    353,
+                    354,
+                    355,
+                    356,
+                    357,
+                    358,
+                    359,
+                    360,
+                    361
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "name()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).name (DigitalBitsToken_5560.sol#335) shadows:\n\t- ERC20Detailed.name() (DigitalBitsToken_5560.sol#344-346) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).name](DigitalBitsToken_5560.sol#L335) shadows:\n\t- [ERC20Detailed.name()](DigitalBitsToken_5560.sol#L344-L346) (function)\n",
+        "id": "cc79c402b72d738360f3eefe4386e6c2bf77198844db08fa7e421f821cc00851",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 10348,
+              "length": 13,
+              "filename_used": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+              "filename_relative": "DigitalBitsToken_5560.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+              "filename_short": "DigitalBitsToken_5560.sol",
+              "is_dependency": false,
+              "lines": [
+                335
+              ],
+              "starting_column": 28,
+              "ending_column": 41
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 10323,
+                  "length": 138,
+                  "filename_used": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                  "filename_relative": "DigitalBitsToken_5560.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                  "filename_short": "DigitalBitsToken_5560.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    335,
+                    336,
+                    337,
+                    338,
+                    339
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 10203,
+                      "length": 666,
+                      "filename_used": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                      "filename_relative": "DigitalBitsToken_5560.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                      "filename_short": "DigitalBitsToken_5560.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        330,
+                        331,
+                        332,
+                        333,
+                        334,
+                        335,
+                        336,
+                        337,
+                        338,
+                        339,
+                        340,
+                        341,
+                        342,
+                        343,
+                        344,
+                        345,
+                        346,
+                        347,
+                        348,
+                        349,
+                        350,
+                        351,
+                        352,
+                        353,
+                        354,
+                        355,
+                        356,
+                        357,
+                        358,
+                        359,
+                        360,
+                        361
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 10646,
+              "length": 73,
+              "filename_used": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+              "filename_relative": "DigitalBitsToken_5560.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+              "filename_short": "DigitalBitsToken_5560.sol",
+              "is_dependency": false,
+              "lines": [
+                351,
+                352,
+                353
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 10203,
+                  "length": 666,
+                  "filename_used": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                  "filename_relative": "DigitalBitsToken_5560.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                  "filename_short": "DigitalBitsToken_5560.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    330,
+                    331,
+                    332,
+                    333,
+                    334,
+                    335,
+                    336,
+                    337,
+                    338,
+                    339,
+                    340,
+                    341,
+                    342,
+                    343,
+                    344,
+                    345,
+                    346,
+                    347,
+                    348,
+                    349,
+                    350,
+                    351,
+                    352,
+                    353,
+                    354,
+                    355,
+                    356,
+                    357,
+                    358,
+                    359,
+                    360,
+                    361
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "symbol()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).symbol (DigitalBitsToken_5560.sol#335) shadows:\n\t- ERC20Detailed.symbol() (DigitalBitsToken_5560.sol#351-353) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).symbol](DigitalBitsToken_5560.sol#L335) shadows:\n\t- [ERC20Detailed.symbol()](DigitalBitsToken_5560.sol#L351-L353) (function)\n",
+        "id": "8001ef8aa02973c3b50a70701dd29bd34da99677c332f5ece9c5ad02f96df070",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 10363,
+              "length": 14,
+              "filename_used": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+              "filename_relative": "DigitalBitsToken_5560.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+              "filename_short": "DigitalBitsToken_5560.sol",
+              "is_dependency": false,
+              "lines": [
+                335
+              ],
+              "starting_column": 43,
+              "ending_column": 57
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 10323,
+                  "length": 138,
+                  "filename_used": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                  "filename_relative": "DigitalBitsToken_5560.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                  "filename_short": "DigitalBitsToken_5560.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    335,
+                    336,
+                    337,
+                    338,
+                    339
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 10203,
+                      "length": 666,
+                      "filename_used": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                      "filename_relative": "DigitalBitsToken_5560.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                      "filename_short": "DigitalBitsToken_5560.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        330,
+                        331,
+                        332,
+                        333,
+                        334,
+                        335,
+                        336,
+                        337,
+                        338,
+                        339,
+                        340,
+                        341,
+                        342,
+                        343,
+                        344,
+                        345,
+                        346,
+                        347,
+                        348,
+                        349,
+                        350,
+                        351,
+                        352,
+                        353,
+                        354,
+                        355,
+                        356,
+                        357,
+                        358,
+                        359,
+                        360,
+                        361
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 10790,
+              "length": 76,
+              "filename_used": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+              "filename_relative": "DigitalBitsToken_5560.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+              "filename_short": "DigitalBitsToken_5560.sol",
+              "is_dependency": false,
+              "lines": [
+                358,
+                359,
+                360
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 10203,
+                  "length": 666,
+                  "filename_used": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                  "filename_relative": "DigitalBitsToken_5560.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/DigitalBitsToken_5560.sol",
+                  "filename_short": "DigitalBitsToken_5560.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    330,
+                    331,
+                    332,
+                    333,
+                    334,
+                    335,
+                    336,
+                    337,
+                    338,
+                    339,
+                    340,
+                    341,
+                    342,
+                    343,
+                    344,
+                    345,
+                    346,
+                    347,
+                    348,
+                    349,
+                    350,
+                    351,
+                    352,
+                    353,
+                    354,
+                    355,
+                    356,
+                    357,
+                    358,
+                    359,
+                    360,
+                    361
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "decimals()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).decimals (DigitalBitsToken_5560.sol#335) shadows:\n\t- ERC20Detailed.decimals() (DigitalBitsToken_5560.sol#358-360) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).decimals](DigitalBitsToken_5560.sol#L335) shadows:\n\t- [ERC20Detailed.decimals()](DigitalBitsToken_5560.sol#L358-L360) (function)\n",
+        "id": "9845f20fbb5426ca76f8323c89209ef9241cc258bb2d3177ffb8d85a5b354720",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      }
+    ]
+  }
+}

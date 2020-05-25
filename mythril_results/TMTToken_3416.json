@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nTMTToken_3416.sol:69:27: TypeError: Definition of base has to precede definition of derived contract\ncontract StandardToken is ERC20, BasicToken {\r\n                          ^---^\n", "issues": []}

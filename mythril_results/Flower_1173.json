@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nFlower_1173.sol:17:41: TypeError: Definition of base has to precede definition of derived contract\ncontract SupportsInterfaceWithLookup is ERC165 {\r\n                                        ^----^\n", "issues": []}

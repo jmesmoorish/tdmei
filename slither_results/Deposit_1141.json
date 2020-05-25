@@ -1,0 +1,90 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "stringToBytes24",
+            "source_mapping": {
+              "start": 1959,
+              "length": 294,
+              "filename_used": "/home/tiago/Desktop/slither_2/Deposit_1141.sol",
+              "filename_relative": "Deposit_1141.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Deposit_1141.sol",
+              "filename_short": "Deposit_1141.sol",
+              "is_dependency": false,
+              "lines": [
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "UnitConverter",
+                "source_mapping": {
+                  "start": 1899,
+                  "length": 357,
+                  "filename_used": "/home/tiago/Desktop/slither_2/Deposit_1141.sol",
+                  "filename_relative": "Deposit_1141.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/Deposit_1141.sol",
+                  "filename_short": "Deposit_1141.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "stringToBytes24(string)"
+            }
+          }
+        ],
+        "description": "UnitConverter.stringToBytes24(string) (Deposit_1141.sol#70-83) is declared view but contains assembly code\n",
+        "markdown": "[UnitConverter.stringToBytes24(string)](Deposit_1141.sol#L70-L83) is declared view but contains assembly code\n",
+        "id": "9e01ec5491a6c952460c88656c52d4058219e5384dfb54ee981c474d903d3915",
+        "additional_fields": {
+          "contains_assembly": true
+        },
+        "check": "constant-function-asm",
+        "impact": "Medium",
+        "confidence": "Medium"
+      }
+    ]
+  }
+}

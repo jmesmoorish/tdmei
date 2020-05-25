@@ -1,0 +1,158 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "Proxy",
+            "source_mapping": {
+              "start": 26,
+              "length": 1149,
+              "filename_used": "/home/tiago/Desktop/slither_2/Proxy_959.sol",
+              "filename_relative": "Proxy_959.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Proxy_959.sol",
+              "filename_short": "Proxy_959.sol",
+              "is_dependency": false,
+              "lines": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38
+              ],
+              "starting_column": 1,
+              "ending_column": null
+            }
+          },
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 693,
+              "length": 479,
+              "filename_used": "/home/tiago/Desktop/slither_2/Proxy_959.sol",
+              "filename_relative": "Proxy_959.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Proxy_959.sol",
+              "filename_short": "Proxy_959.sol",
+              "is_dependency": false,
+              "lines": [
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Proxy",
+                "source_mapping": {
+                  "start": 26,
+                  "length": 1149,
+                  "filename_used": "/home/tiago/Desktop/slither_2/Proxy_959.sol",
+                  "filename_relative": "Proxy_959.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/Proxy_959.sol",
+                  "filename_short": "Proxy_959.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "Contract locking ether found in :\n\tContract Proxy (Proxy_959.sol#3-38) has payable functions:\n\t - Proxy.fallback() (Proxy_959.sol#24-37)\n\tBut does not have a function to withdraw the ether\n",
+        "markdown": "Contract locking ether found in :\n\tContract [Proxy](Proxy_959.sol#L3-L38) has payable functions:\n\t - [Proxy.fallback()](Proxy_959.sol#L24-L37)\n\tBut does not have a function to withdraw the ether\n",
+        "id": "d81f129b4cacab67bb40a9aaac78cb3761919e72a7449c2adc319c2f043f667c",
+        "check": "locked-ether",
+        "impact": "Medium",
+        "confidence": "High"
+      }
+    ]
+  }
+}

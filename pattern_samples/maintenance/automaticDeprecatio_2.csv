@@ -1,0 +1,5 @@
+type,count,contracts
+token,4,"[{""contract"":""GtanToken_472"",""line"":383},{""contract"":""HedgeContract_1066"",""line"":722},{""contract"":""IzeToken_1884"",""line"":476},{""contract"":""TetherToken_2078"",""line"":658}]"
+defi,6,"[{""contract"":""Curvepool_473"",""line"":589},{""contract"":""IOCrypto_5033"",""line"":70},{""contract"":""Oracle_4469"",""line"":201},{""contract"":""Smartex_4754"",""line"":20},{""contract"":""Smartlevel_3010"",""line"":25},{""contract"":""Unipool_1030"",""line"":592}]"
+game,0,[]
+other,4,"[{""contract"":""AccountLogic_1962"",""line"":739},{""contract"":""AccountCreator_822"",""line"":527},{""contract"":""HashTimeLock_1912"",""line"":78},{""contract"":""PrivatixServiceContract_5562"",""line"":20}]"

@@ -1,0 +1,33 @@
+Total files:318
+Access restriction: 241 - contracts: 97
+Multiple authorization: 5 - contracts: 5
+Ownership: 206 - contracts: 206
+Commit amd reveal: 2 - contracts: 2
+Guard check: 72 - contracts: 21
+Memory array building: 13 - contracts: 10
+Oracle: 17 - contracts: 17
+Poll: 3 - contracts: 3
+Pull payment: 52 - contracts: 52
+Randomness: 4 - contracts: 4
+Safemath: 253 - contracts: 253
+State machine: 7 - contracts: 7
+String equality comparison: 1 - contracts: 1
+Tight variable packing: 118 - contracts: 75
+Token: 212 - contracts: 209
+Automatic deprecation: 14 - contracts: 14
+Contract composer: 235 - contracts: 137
+Contract factory: 13 - contracts: 11
+Contract register: 9 - contracts: 8
+Contract relay: 29 - contracts: 29
+Data segregation: 33 - contracts: 19
+Mortal: 22 - contracts: 22
+Satellite: 6 - contracts: 6
+Balance Limit: 9 - contracts: 9
+Checks-effects-interaction: 451 - contracts: 177
+Emergency stop: 52 - contracts: 52
+Mutex: 22 - contracts: 22
+Rate limit: 12 - contracts: 12
+Secure ether transfer: 7 - contracts: 7
+Speed bump: 18 - contracts: 14
+Lapses: 0
+

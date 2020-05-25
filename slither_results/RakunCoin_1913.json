@@ -1,0 +1,536 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "name",
+            "source_mapping": {
+              "start": 9982,
+              "length": 11,
+              "filename_used": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+              "filename_relative": "RakunCoin_1913.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+              "filename_short": "RakunCoin_1913.sol",
+              "is_dependency": false,
+              "lines": [
+                321
+              ],
+              "starting_column": 15,
+              "ending_column": 26
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 9970,
+                  "length": 138,
+                  "filename_used": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                  "filename_relative": "RakunCoin_1913.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                  "filename_short": "RakunCoin_1913.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    321,
+                    322,
+                    323,
+                    324,
+                    325
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 9850,
+                      "length": 666,
+                      "filename_used": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                      "filename_relative": "RakunCoin_1913.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                      "filename_short": "RakunCoin_1913.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        316,
+                        317,
+                        318,
+                        319,
+                        320,
+                        321,
+                        322,
+                        323,
+                        324,
+                        325,
+                        326,
+                        327,
+                        328,
+                        329,
+                        330,
+                        331,
+                        332,
+                        333,
+                        334,
+                        335,
+                        336,
+                        337,
+                        338,
+                        339,
+                        340,
+                        341,
+                        342,
+                        343,
+                        344,
+                        345,
+                        346,
+                        347
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "name",
+            "source_mapping": {
+              "start": 10165,
+              "length": 69,
+              "filename_used": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+              "filename_relative": "RakunCoin_1913.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+              "filename_short": "RakunCoin_1913.sol",
+              "is_dependency": false,
+              "lines": [
+                330,
+                331,
+                332
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 9850,
+                  "length": 666,
+                  "filename_used": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                  "filename_relative": "RakunCoin_1913.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                  "filename_short": "RakunCoin_1913.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    316,
+                    317,
+                    318,
+                    319,
+                    320,
+                    321,
+                    322,
+                    323,
+                    324,
+                    325,
+                    326,
+                    327,
+                    328,
+                    329,
+                    330,
+                    331,
+                    332,
+                    333,
+                    334,
+                    335,
+                    336,
+                    337,
+                    338,
+                    339,
+                    340,
+                    341,
+                    342,
+                    343,
+                    344,
+                    345,
+                    346,
+                    347
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "name()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).name (RakunCoin_1913.sol#321) shadows:\n\t- ERC20Detailed.name() (RakunCoin_1913.sol#330-332) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).name](RakunCoin_1913.sol#L321) shadows:\n\t- [ERC20Detailed.name()](RakunCoin_1913.sol#L330-L332) (function)\n",
+        "id": "cc79c402b72d738360f3eefe4386e6c2bf77198844db08fa7e421f821cc00851",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 9995,
+              "length": 13,
+              "filename_used": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+              "filename_relative": "RakunCoin_1913.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+              "filename_short": "RakunCoin_1913.sol",
+              "is_dependency": false,
+              "lines": [
+                321
+              ],
+              "starting_column": 28,
+              "ending_column": 41
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 9970,
+                  "length": 138,
+                  "filename_used": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                  "filename_relative": "RakunCoin_1913.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                  "filename_short": "RakunCoin_1913.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    321,
+                    322,
+                    323,
+                    324,
+                    325
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 9850,
+                      "length": 666,
+                      "filename_used": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                      "filename_relative": "RakunCoin_1913.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                      "filename_short": "RakunCoin_1913.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        316,
+                        317,
+                        318,
+                        319,
+                        320,
+                        321,
+                        322,
+                        323,
+                        324,
+                        325,
+                        326,
+                        327,
+                        328,
+                        329,
+                        330,
+                        331,
+                        332,
+                        333,
+                        334,
+                        335,
+                        336,
+                        337,
+                        338,
+                        339,
+                        340,
+                        341,
+                        342,
+                        343,
+                        344,
+                        345,
+                        346,
+                        347
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 10293,
+              "length": 73,
+              "filename_used": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+              "filename_relative": "RakunCoin_1913.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+              "filename_short": "RakunCoin_1913.sol",
+              "is_dependency": false,
+              "lines": [
+                337,
+                338,
+                339
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 9850,
+                  "length": 666,
+                  "filename_used": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                  "filename_relative": "RakunCoin_1913.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                  "filename_short": "RakunCoin_1913.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    316,
+                    317,
+                    318,
+                    319,
+                    320,
+                    321,
+                    322,
+                    323,
+                    324,
+                    325,
+                    326,
+                    327,
+                    328,
+                    329,
+                    330,
+                    331,
+                    332,
+                    333,
+                    334,
+                    335,
+                    336,
+                    337,
+                    338,
+                    339,
+                    340,
+                    341,
+                    342,
+                    343,
+                    344,
+                    345,
+                    346,
+                    347
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "symbol()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).symbol (RakunCoin_1913.sol#321) shadows:\n\t- ERC20Detailed.symbol() (RakunCoin_1913.sol#337-339) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).symbol](RakunCoin_1913.sol#L321) shadows:\n\t- [ERC20Detailed.symbol()](RakunCoin_1913.sol#L337-L339) (function)\n",
+        "id": "8001ef8aa02973c3b50a70701dd29bd34da99677c332f5ece9c5ad02f96df070",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 10010,
+              "length": 14,
+              "filename_used": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+              "filename_relative": "RakunCoin_1913.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+              "filename_short": "RakunCoin_1913.sol",
+              "is_dependency": false,
+              "lines": [
+                321
+              ],
+              "starting_column": 43,
+              "ending_column": 57
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 9970,
+                  "length": 138,
+                  "filename_used": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                  "filename_relative": "RakunCoin_1913.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                  "filename_short": "RakunCoin_1913.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    321,
+                    322,
+                    323,
+                    324,
+                    325
+                  ],
+                  "starting_column": 3,
+                  "ending_column": 4
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 9850,
+                      "length": 666,
+                      "filename_used": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                      "filename_relative": "RakunCoin_1913.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                      "filename_short": "RakunCoin_1913.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        316,
+                        317,
+                        318,
+                        319,
+                        320,
+                        321,
+                        322,
+                        323,
+                        324,
+                        325,
+                        326,
+                        327,
+                        328,
+                        329,
+                        330,
+                        331,
+                        332,
+                        333,
+                        334,
+                        335,
+                        336,
+                        337,
+                        338,
+                        339,
+                        340,
+                        341,
+                        342,
+                        343,
+                        344,
+                        345,
+                        346,
+                        347
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 10437,
+              "length": 76,
+              "filename_used": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+              "filename_relative": "RakunCoin_1913.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+              "filename_short": "RakunCoin_1913.sol",
+              "is_dependency": false,
+              "lines": [
+                344,
+                345,
+                346
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 9850,
+                  "length": 666,
+                  "filename_used": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                  "filename_relative": "RakunCoin_1913.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/RakunCoin_1913.sol",
+                  "filename_short": "RakunCoin_1913.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    316,
+                    317,
+                    318,
+                    319,
+                    320,
+                    321,
+                    322,
+                    323,
+                    324,
+                    325,
+                    326,
+                    327,
+                    328,
+                    329,
+                    330,
+                    331,
+                    332,
+                    333,
+                    334,
+                    335,
+                    336,
+                    337,
+                    338,
+                    339,
+                    340,
+                    341,
+                    342,
+                    343,
+                    344,
+                    345,
+                    346,
+                    347
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "decimals()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).decimals (RakunCoin_1913.sol#321) shadows:\n\t- ERC20Detailed.decimals() (RakunCoin_1913.sol#344-346) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).decimals](RakunCoin_1913.sol#L321) shadows:\n\t- [ERC20Detailed.decimals()](RakunCoin_1913.sol#L344-L346) (function)\n",
+        "id": "9845f20fbb5426ca76f8323c89209ef9241cc258bb2d3177ffb8d85a5b354720",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      }
+    ]
+  }
+}

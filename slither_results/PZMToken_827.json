@@ -1,0 +1,141 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "toAddress",
+            "source_mapping": {
+              "start": 260,
+              "length": 143,
+              "filename_used": "/home/tiago/Desktop/slither_2/PZMToken_827.sol",
+              "filename_relative": "PZMToken_827.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/PZMToken_827.sol",
+              "filename_short": "PZMToken_827.sol",
+              "is_dependency": false,
+              "lines": [
+                16,
+                17,
+                18,
+                19
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Address",
+                "source_mapping": {
+                  "start": 239,
+                  "length": 333,
+                  "filename_used": "/home/tiago/Desktop/slither_2/PZMToken_827.sol",
+                  "filename_relative": "PZMToken_827.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/PZMToken_827.sol",
+                  "filename_short": "PZMToken_827.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "toAddress(bytes)"
+            }
+          }
+        ],
+        "description": "Address.toAddress(bytes) (PZMToken_827.sol#16-19) is declared view but contains assembly code\n",
+        "markdown": "[Address.toAddress(bytes)](PZMToken_827.sol#L16-L19) is declared view but contains assembly code\n",
+        "id": "6f7a754876061bd9a7f9de666509513a0a0fab84ae8a82081ea4c1ae858977a6",
+        "additional_fields": {
+          "contains_assembly": true
+        },
+        "check": "constant-function-asm",
+        "impact": "Medium",
+        "confidence": "Medium"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "isNotContract",
+            "source_mapping": {
+              "start": 409,
+              "length": 160,
+              "filename_used": "/home/tiago/Desktop/slither_2/PZMToken_827.sol",
+              "filename_relative": "PZMToken_827.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/PZMToken_827.sol",
+              "filename_short": "PZMToken_827.sol",
+              "is_dependency": false,
+              "lines": [
+                21,
+                22,
+                23,
+                24,
+                25
+              ],
+              "starting_column": 3,
+              "ending_column": 4
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "Address",
+                "source_mapping": {
+                  "start": 239,
+                  "length": 333,
+                  "filename_used": "/home/tiago/Desktop/slither_2/PZMToken_827.sol",
+                  "filename_relative": "PZMToken_827.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/PZMToken_827.sol",
+                  "filename_short": "PZMToken_827.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "isNotContract(address)"
+            }
+          }
+        ],
+        "description": "Address.isNotContract(address) (PZMToken_827.sol#21-25) is declared view but contains assembly code\n",
+        "markdown": "[Address.isNotContract(address)](PZMToken_827.sol#L21-L25) is declared view but contains assembly code\n",
+        "id": "8872e28296504c5c48259d5f93448e213f344748909bdb0adc01aac05e5f8609",
+        "additional_fields": {
+          "contains_assembly": true
+        },
+        "check": "constant-function-asm",
+        "impact": "Medium",
+        "confidence": "Medium"
+      }
+    ]
+  }
+}

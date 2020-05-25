@@ -1,0 +1,914 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_name",
+            "source_mapping": {
+              "start": 11331,
+              "length": 28,
+              "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_relative": "HCE_5366.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_short": "HCE_5366.sol",
+              "is_dependency": false,
+              "lines": [
+                318
+              ],
+              "starting_column": 5,
+              "ending_column": 33
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "HCE",
+                "source_mapping": {
+                  "start": 11287,
+                  "length": 348,
+                  "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_relative": "HCE_5366.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_short": "HCE_5366.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    317,
+                    318,
+                    319,
+                    320,
+                    321,
+                    322,
+                    323,
+                    324,
+                    325,
+                    326
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "_name",
+            "source_mapping": {
+              "start": 10559,
+              "length": 20,
+              "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_relative": "HCE_5366.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_short": "HCE_5366.sol",
+              "is_dependency": false,
+              "lines": [
+                284
+              ],
+              "starting_column": 5,
+              "ending_column": 25
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 10519,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_relative": "HCE_5366.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_short": "HCE_5366.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    283,
+                    284,
+                    285,
+                    286,
+                    287,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    293,
+                    294,
+                    295,
+                    296,
+                    297,
+                    298,
+                    299,
+                    300,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310,
+                    311,
+                    312,
+                    313,
+                    314
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "HCE._name (HCE_5366.sol#318) shadows:\n\t- ERC20Detailed._name (HCE_5366.sol#284)\n",
+        "markdown": "[HCE._name](HCE_5366.sol#L318) shadows:\n\t- [ERC20Detailed._name](HCE_5366.sol#L284)\n",
+        "id": "a96261e01998a372671ea0959161a7b9cf81f8757e72b32b8bfa35e94df87dc8",
+        "check": "shadowing-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_symbol",
+            "source_mapping": {
+              "start": 11366,
+              "length": 30,
+              "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_relative": "HCE_5366.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_short": "HCE_5366.sol",
+              "is_dependency": false,
+              "lines": [
+                319
+              ],
+              "starting_column": 5,
+              "ending_column": 35
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "HCE",
+                "source_mapping": {
+                  "start": 11287,
+                  "length": 348,
+                  "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_relative": "HCE_5366.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_short": "HCE_5366.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    317,
+                    318,
+                    319,
+                    320,
+                    321,
+                    322,
+                    323,
+                    324,
+                    325,
+                    326
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "_symbol",
+            "source_mapping": {
+              "start": 10586,
+              "length": 22,
+              "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_relative": "HCE_5366.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_short": "HCE_5366.sol",
+              "is_dependency": false,
+              "lines": [
+                285
+              ],
+              "starting_column": 5,
+              "ending_column": 27
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 10519,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_relative": "HCE_5366.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_short": "HCE_5366.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    283,
+                    284,
+                    285,
+                    286,
+                    287,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    293,
+                    294,
+                    295,
+                    296,
+                    297,
+                    298,
+                    299,
+                    300,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310,
+                    311,
+                    312,
+                    313,
+                    314
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "HCE._symbol (HCE_5366.sol#319) shadows:\n\t- ERC20Detailed._symbol (HCE_5366.sol#285)\n",
+        "markdown": "[HCE._symbol](HCE_5366.sol#L319) shadows:\n\t- [ERC20Detailed._symbol](HCE_5366.sol#L285)\n",
+        "id": "b888099a12af6757feed665df1b386d0ec88c9c5d3bfef2eeb5aea6acb33b43e",
+        "check": "shadowing-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "_decimals",
+            "source_mapping": {
+              "start": 11403,
+              "length": 28,
+              "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_relative": "HCE_5366.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_short": "HCE_5366.sol",
+              "is_dependency": false,
+              "lines": [
+                320
+              ],
+              "starting_column": 5,
+              "ending_column": 33
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "HCE",
+                "source_mapping": {
+                  "start": 11287,
+                  "length": 348,
+                  "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_relative": "HCE_5366.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_short": "HCE_5366.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    317,
+                    318,
+                    319,
+                    320,
+                    321,
+                    322,
+                    323,
+                    324,
+                    325,
+                    326
+                  ],
+                  "starting_column": 1,
+                  "ending_column": null
+                }
+              }
+            }
+          },
+          {
+            "type": "variable",
+            "name": "_decimals",
+            "source_mapping": {
+              "start": 10615,
+              "length": 23,
+              "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_relative": "HCE_5366.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_short": "HCE_5366.sol",
+              "is_dependency": false,
+              "lines": [
+                286
+              ],
+              "starting_column": 5,
+              "ending_column": 28
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 10519,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_relative": "HCE_5366.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_short": "HCE_5366.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    283,
+                    284,
+                    285,
+                    286,
+                    287,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    293,
+                    294,
+                    295,
+                    296,
+                    297,
+                    298,
+                    299,
+                    300,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310,
+                    311,
+                    312,
+                    313,
+                    314
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              }
+            }
+          }
+        ],
+        "description": "HCE._decimals (HCE_5366.sol#320) shadows:\n\t- ERC20Detailed._decimals (HCE_5366.sol#286)\n",
+        "markdown": "[HCE._decimals](HCE_5366.sol#L320) shadows:\n\t- [ERC20Detailed._decimals](HCE_5366.sol#L286)\n",
+        "id": "852fc996daf8a1be16c1a9a8da24fe8a5907b31835ca069d6a872ffa53bd651a",
+        "check": "shadowing-state",
+        "impact": "High",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "name",
+            "source_mapping": {
+              "start": 10660,
+              "length": 18,
+              "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_relative": "HCE_5366.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_short": "HCE_5366.sol",
+              "is_dependency": false,
+              "lines": [
+                288
+              ],
+              "starting_column": 18,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 10647,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_relative": "HCE_5366.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_short": "HCE_5366.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    288,
+                    289,
+                    290,
+                    291,
+                    292
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 10519,
+                      "length": 762,
+                      "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                      "filename_relative": "HCE_5366.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                      "filename_short": "HCE_5366.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        283,
+                        284,
+                        285,
+                        286,
+                        287,
+                        288,
+                        289,
+                        290,
+                        291,
+                        292,
+                        293,
+                        294,
+                        295,
+                        296,
+                        297,
+                        298,
+                        299,
+                        300,
+                        301,
+                        302,
+                        303,
+                        304,
+                        305,
+                        306,
+                        307,
+                        308,
+                        309,
+                        310,
+                        311,
+                        312,
+                        313,
+                        314
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "name",
+            "source_mapping": {
+              "start": 10879,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_relative": "HCE_5366.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_short": "HCE_5366.sol",
+              "is_dependency": false,
+              "lines": [
+                297,
+                298,
+                299
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 10519,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_relative": "HCE_5366.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_short": "HCE_5366.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    283,
+                    284,
+                    285,
+                    286,
+                    287,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    293,
+                    294,
+                    295,
+                    296,
+                    297,
+                    298,
+                    299,
+                    300,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310,
+                    311,
+                    312,
+                    313,
+                    314
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "name()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).name (HCE_5366.sol#288) shadows:\n\t- ERC20Detailed.name() (HCE_5366.sol#297-299) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).name](HCE_5366.sol#L288) shadows:\n\t- [ERC20Detailed.name()](HCE_5366.sol#L297-L299) (function)\n",
+        "id": "cc79c402b72d738360f3eefe4386e6c2bf77198844db08fa7e421f821cc00851",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 10680,
+              "length": 20,
+              "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_relative": "HCE_5366.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_short": "HCE_5366.sol",
+              "is_dependency": false,
+              "lines": [
+                288
+              ],
+              "starting_column": 38,
+              "ending_column": 58
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 10647,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_relative": "HCE_5366.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_short": "HCE_5366.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    288,
+                    289,
+                    290,
+                    291,
+                    292
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 10519,
+                      "length": 762,
+                      "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                      "filename_relative": "HCE_5366.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                      "filename_short": "HCE_5366.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        283,
+                        284,
+                        285,
+                        286,
+                        287,
+                        288,
+                        289,
+                        290,
+                        291,
+                        292,
+                        293,
+                        294,
+                        295,
+                        296,
+                        297,
+                        298,
+                        299,
+                        300,
+                        301,
+                        302,
+                        303,
+                        304,
+                        305,
+                        306,
+                        307,
+                        308,
+                        309,
+                        310,
+                        311,
+                        312,
+                        313,
+                        314
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 11029,
+              "length": 87,
+              "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_relative": "HCE_5366.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_short": "HCE_5366.sol",
+              "is_dependency": false,
+              "lines": [
+                304,
+                305,
+                306
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 10519,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_relative": "HCE_5366.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_short": "HCE_5366.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    283,
+                    284,
+                    285,
+                    286,
+                    287,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    293,
+                    294,
+                    295,
+                    296,
+                    297,
+                    298,
+                    299,
+                    300,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310,
+                    311,
+                    312,
+                    313,
+                    314
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "symbol()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).symbol (HCE_5366.sol#288) shadows:\n\t- ERC20Detailed.symbol() (HCE_5366.sol#304-306) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).symbol](HCE_5366.sol#L288) shadows:\n\t- [ERC20Detailed.symbol()](HCE_5366.sol#L304-L306) (function)\n",
+        "id": "8001ef8aa02973c3b50a70701dd29bd34da99677c332f5ece9c5ad02f96df070",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 10702,
+              "length": 14,
+              "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_relative": "HCE_5366.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_short": "HCE_5366.sol",
+              "is_dependency": false,
+              "lines": [
+                288
+              ],
+              "starting_column": 60,
+              "ending_column": 74
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 10647,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_relative": "HCE_5366.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_short": "HCE_5366.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    288,
+                    289,
+                    290,
+                    291,
+                    292
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 10519,
+                      "length": 762,
+                      "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                      "filename_relative": "HCE_5366.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                      "filename_short": "HCE_5366.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        283,
+                        284,
+                        285,
+                        286,
+                        287,
+                        288,
+                        289,
+                        290,
+                        291,
+                        292,
+                        293,
+                        294,
+                        295,
+                        296,
+                        297,
+                        298,
+                        299,
+                        300,
+                        301,
+                        302,
+                        303,
+                        304,
+                        305,
+                        306,
+                        307,
+                        308,
+                        309,
+                        310,
+                        311,
+                        312,
+                        313,
+                        314
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 11195,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_relative": "HCE_5366.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+              "filename_short": "HCE_5366.sol",
+              "is_dependency": false,
+              "lines": [
+                311,
+                312,
+                313
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 10519,
+                  "length": 762,
+                  "filename_used": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_relative": "HCE_5366.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/HCE_5366.sol",
+                  "filename_short": "HCE_5366.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    283,
+                    284,
+                    285,
+                    286,
+                    287,
+                    288,
+                    289,
+                    290,
+                    291,
+                    292,
+                    293,
+                    294,
+                    295,
+                    296,
+                    297,
+                    298,
+                    299,
+                    300,
+                    301,
+                    302,
+                    303,
+                    304,
+                    305,
+                    306,
+                    307,
+                    308,
+                    309,
+                    310,
+                    311,
+                    312,
+                    313,
+                    314
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "decimals()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).decimals (HCE_5366.sol#288) shadows:\n\t- ERC20Detailed.decimals() (HCE_5366.sol#311-313) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).decimals](HCE_5366.sol#L288) shadows:\n\t- [ERC20Detailed.decimals()](HCE_5366.sol#L311-L313) (function)\n",
+        "id": "9845f20fbb5426ca76f8323c89209ef9241cc258bb2d3177ffb8d85a5b354720",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      }
+    ]
+  }
+}

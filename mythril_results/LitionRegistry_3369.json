@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nLitionRegistry_3369.sol:1653:63: CompilerError: Stack too deep, try removing local variables.\n                actValidatorVesting = actValidatorVesting.mul(chain.rewardBonusPercentage + 100) / 100;\r\n                                                              ^---^\n", "issues": []}

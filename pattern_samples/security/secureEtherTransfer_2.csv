@@ -1,0 +1,5 @@
+type,count,contracts
+token,5,"[{""contract"":""CSPLSPLGatewayV11_1507"",""line"":597},{""contract"":""CryptoMorphMint_1428"",""line"":111},{""contract"":""DarkCountry_166"",""line"":120},{""contract"":""DoDreamChain_1905"",""line"":71},{""contract"":""ERC20Token_158"",""line"":858}]"
+defi,1,"[{""contract"":""MakerV2Manager_2847"",""line"":898}]"
+game,0,[]
+other,1,"[{""contract"":""TransferManager_2850"",""line"":894}]"

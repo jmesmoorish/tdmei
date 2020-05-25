@@ -1,0 +1,111 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "contract",
+            "name": "Scanetchain",
+            "source_mapping": {
+              "start": 11728,
+              "length": 527,
+              "filename_used": "/home/tiago/Desktop/slither_2/Scanetchain_5318.sol",
+              "filename_relative": "Scanetchain_5318.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Scanetchain_5318.sol",
+              "filename_short": "Scanetchain_5318.sol",
+              "is_dependency": false,
+              "lines": [
+                439,
+                440,
+                441,
+                442,
+                443,
+                444,
+                445,
+                446,
+                447,
+                448,
+                449,
+                450,
+                451,
+                452,
+                453,
+                454,
+                455,
+                456
+              ],
+              "starting_column": 1,
+              "ending_column": null
+            }
+          },
+          {
+            "type": "function",
+            "name": "fallback",
+            "source_mapping": {
+              "start": 6109,
+              "length": 56,
+              "filename_used": "/home/tiago/Desktop/slither_2/Scanetchain_5318.sol",
+              "filename_relative": "Scanetchain_5318.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/Scanetchain_5318.sol",
+              "filename_short": "Scanetchain_5318.sol",
+              "is_dependency": false,
+              "lines": [
+                241,
+                242,
+                243
+              ],
+              "starting_column": 3,
+              "ending_column": 7
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20",
+                "source_mapping": {
+                  "start": 5708,
+                  "length": 460,
+                  "filename_used": "/home/tiago/Desktop/slither_2/Scanetchain_5318.sol",
+                  "filename_relative": "Scanetchain_5318.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/Scanetchain_5318.sol",
+                  "filename_short": "Scanetchain_5318.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    227,
+                    228,
+                    229,
+                    230,
+                    231,
+                    232,
+                    233,
+                    234,
+                    235,
+                    236,
+                    237,
+                    238,
+                    239,
+                    240,
+                    241,
+                    242,
+                    243,
+                    244
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "fallback()"
+            }
+          }
+        ],
+        "description": "Contract locking ether found in :\n\tContract Scanetchain (Scanetchain_5318.sol#439-456) has payable functions:\n\t - ERC20.fallback() (Scanetchain_5318.sol#241-243)\n\tBut does not have a function to withdraw the ether\n",
+        "markdown": "Contract locking ether found in :\n\tContract [Scanetchain](Scanetchain_5318.sol#L439-L456) has payable functions:\n\t - [ERC20.fallback()](Scanetchain_5318.sol#L241-L243)\n\tBut does not have a function to withdraw the ether\n",
+        "id": "84a8070fa7ce127468d9e986e7019cac1754a7eedefda628d49e08cfcc556891",
+        "check": "locked-ether",
+        "impact": "Medium",
+        "confidence": "High"
+      }
+    ]
+  }
+}

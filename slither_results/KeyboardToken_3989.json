@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "name",
+            "source_mapping": {
+              "start": 6144,
+              "length": 18,
+              "filename_used": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+              "filename_relative": "KeyboardToken_3989.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+              "filename_short": "KeyboardToken_3989.sol",
+              "is_dependency": false,
+              "lines": [
+                182
+              ],
+              "starting_column": 18,
+              "ending_column": 36
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 6131,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                  "filename_relative": "KeyboardToken_3989.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                  "filename_short": "KeyboardToken_3989.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    182,
+                    183,
+                    184,
+                    185,
+                    186
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 5814,
+                      "length": 1492,
+                      "filename_used": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                      "filename_relative": "KeyboardToken_3989.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                      "filename_short": "KeyboardToken_3989.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        172,
+                        173,
+                        174,
+                        175,
+                        176,
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182,
+                        183,
+                        184,
+                        185,
+                        186,
+                        187,
+                        188,
+                        189,
+                        190,
+                        191,
+                        192,
+                        193,
+                        194,
+                        195,
+                        196,
+                        197,
+                        198,
+                        199,
+                        200,
+                        201,
+                        202,
+                        203,
+                        204,
+                        205,
+                        206,
+                        207,
+                        208,
+                        209,
+                        210,
+                        211,
+                        212,
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "name",
+            "source_mapping": {
+              "start": 6368,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+              "filename_relative": "KeyboardToken_3989.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+              "filename_short": "KeyboardToken_3989.sol",
+              "is_dependency": false,
+              "lines": [
+                191,
+                192,
+                193
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 5814,
+                  "length": 1492,
+                  "filename_used": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                  "filename_relative": "KeyboardToken_3989.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                  "filename_short": "KeyboardToken_3989.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    172,
+                    173,
+                    174,
+                    175,
+                    176,
+                    177,
+                    178,
+                    179,
+                    180,
+                    181,
+                    182,
+                    183,
+                    184,
+                    185,
+                    186,
+                    187,
+                    188,
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195,
+                    196,
+                    197,
+                    198,
+                    199,
+                    200,
+                    201,
+                    202,
+                    203,
+                    204,
+                    205,
+                    206,
+                    207,
+                    208,
+                    209,
+                    210,
+                    211,
+                    212,
+                    213,
+                    214,
+                    215,
+                    216,
+                    217,
+                    218
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "name()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).name (KeyboardToken_3989.sol#182) shadows:\n\t- ERC20Detailed.name() (KeyboardToken_3989.sol#191-193) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).name](KeyboardToken_3989.sol#L182) shadows:\n\t- [ERC20Detailed.name()](KeyboardToken_3989.sol#L191-L193) (function)\n",
+        "id": "cc79c402b72d738360f3eefe4386e6c2bf77198844db08fa7e421f821cc00851",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 6164,
+              "length": 20,
+              "filename_used": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+              "filename_relative": "KeyboardToken_3989.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+              "filename_short": "KeyboardToken_3989.sol",
+              "is_dependency": false,
+              "lines": [
+                182
+              ],
+              "starting_column": 38,
+              "ending_column": 58
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 6131,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                  "filename_relative": "KeyboardToken_3989.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                  "filename_short": "KeyboardToken_3989.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    182,
+                    183,
+                    184,
+                    185,
+                    186
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 5814,
+                      "length": 1492,
+                      "filename_used": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                      "filename_relative": "KeyboardToken_3989.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                      "filename_short": "KeyboardToken_3989.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        172,
+                        173,
+                        174,
+                        175,
+                        176,
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182,
+                        183,
+                        184,
+                        185,
+                        186,
+                        187,
+                        188,
+                        189,
+                        190,
+                        191,
+                        192,
+                        193,
+                        194,
+                        195,
+                        196,
+                        197,
+                        198,
+                        199,
+                        200,
+                        201,
+                        202,
+                        203,
+                        204,
+                        205,
+                        206,
+                        207,
+                        208,
+                        209,
+                        210,
+                        211,
+                        212,
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "symbol",
+            "source_mapping": {
+              "start": 6570,
+              "length": 87,
+              "filename_used": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+              "filename_relative": "KeyboardToken_3989.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+              "filename_short": "KeyboardToken_3989.sol",
+              "is_dependency": false,
+              "lines": [
+                199,
+                200,
+                201
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 5814,
+                  "length": 1492,
+                  "filename_used": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                  "filename_relative": "KeyboardToken_3989.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                  "filename_short": "KeyboardToken_3989.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    172,
+                    173,
+                    174,
+                    175,
+                    176,
+                    177,
+                    178,
+                    179,
+                    180,
+                    181,
+                    182,
+                    183,
+                    184,
+                    185,
+                    186,
+                    187,
+                    188,
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195,
+                    196,
+                    197,
+                    198,
+                    199,
+                    200,
+                    201,
+                    202,
+                    203,
+                    204,
+                    205,
+                    206,
+                    207,
+                    208,
+                    209,
+                    210,
+                    211,
+                    212,
+                    213,
+                    214,
+                    215,
+                    216,
+                    217,
+                    218
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "symbol()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).symbol (KeyboardToken_3989.sol#182) shadows:\n\t- ERC20Detailed.symbol() (KeyboardToken_3989.sol#199-201) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).symbol](KeyboardToken_3989.sol#L182) shadows:\n\t- [ERC20Detailed.symbol()](KeyboardToken_3989.sol#L199-L201) (function)\n",
+        "id": "8001ef8aa02973c3b50a70701dd29bd34da99677c332f5ece9c5ad02f96df070",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      },
+      {
+        "elements": [
+          {
+            "type": "variable",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 6186,
+              "length": 14,
+              "filename_used": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+              "filename_relative": "KeyboardToken_3989.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+              "filename_short": "KeyboardToken_3989.sol",
+              "is_dependency": false,
+              "lines": [
+                182
+              ],
+              "starting_column": 60,
+              "ending_column": 74
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "constructor",
+                "source_mapping": {
+                  "start": 6131,
+                  "length": 167,
+                  "filename_used": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                  "filename_relative": "KeyboardToken_3989.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                  "filename_short": "KeyboardToken_3989.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    182,
+                    183,
+                    184,
+                    185,
+                    186
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "ERC20Detailed",
+                    "source_mapping": {
+                      "start": 5814,
+                      "length": 1492,
+                      "filename_used": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                      "filename_relative": "KeyboardToken_3989.sol",
+                      "filename_absolute": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                      "filename_short": "KeyboardToken_3989.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        172,
+                        173,
+                        174,
+                        175,
+                        176,
+                        177,
+                        178,
+                        179,
+                        180,
+                        181,
+                        182,
+                        183,
+                        184,
+                        185,
+                        186,
+                        187,
+                        188,
+                        189,
+                        190,
+                        191,
+                        192,
+                        193,
+                        194,
+                        195,
+                        196,
+                        197,
+                        198,
+                        199,
+                        200,
+                        201,
+                        202,
+                        203,
+                        204,
+                        205,
+                        206,
+                        207,
+                        208,
+                        209,
+                        210,
+                        211,
+                        212,
+                        213,
+                        214,
+                        215,
+                        216,
+                        217,
+                        218
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "constructor(string,string,uint8)"
+                }
+              }
+            }
+          },
+          {
+            "type": "function",
+            "name": "decimals",
+            "source_mapping": {
+              "start": 7220,
+              "length": 83,
+              "filename_used": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+              "filename_relative": "KeyboardToken_3989.sol",
+              "filename_absolute": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+              "filename_short": "KeyboardToken_3989.sol",
+              "is_dependency": false,
+              "lines": [
+                215,
+                216,
+                217
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "ERC20Detailed",
+                "source_mapping": {
+                  "start": 5814,
+                  "length": 1492,
+                  "filename_used": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                  "filename_relative": "KeyboardToken_3989.sol",
+                  "filename_absolute": "/home/tiago/Desktop/slither_2/KeyboardToken_3989.sol",
+                  "filename_short": "KeyboardToken_3989.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    172,
+                    173,
+                    174,
+                    175,
+                    176,
+                    177,
+                    178,
+                    179,
+                    180,
+                    181,
+                    182,
+                    183,
+                    184,
+                    185,
+                    186,
+                    187,
+                    188,
+                    189,
+                    190,
+                    191,
+                    192,
+                    193,
+                    194,
+                    195,
+                    196,
+                    197,
+                    198,
+                    199,
+                    200,
+                    201,
+                    202,
+                    203,
+                    204,
+                    205,
+                    206,
+                    207,
+                    208,
+                    209,
+                    210,
+                    211,
+                    212,
+                    213,
+                    214,
+                    215,
+                    216,
+                    217,
+                    218
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "decimals()"
+            }
+          }
+        ],
+        "description": "ERC20Detailed.constructor(string,string,uint8).decimals (KeyboardToken_3989.sol#182) shadows:\n\t- ERC20Detailed.decimals() (KeyboardToken_3989.sol#215-217) (function)\n",
+        "markdown": "[ERC20Detailed.constructor(string,string,uint8).decimals](KeyboardToken_3989.sol#L182) shadows:\n\t- [ERC20Detailed.decimals()](KeyboardToken_3989.sol#L215-L217) (function)\n",
+        "id": "9845f20fbb5426ca76f8323c89209ef9241cc258bb2d3177ffb8d85a5b354720",
+        "check": "shadowing-local",
+        "impact": "Low",
+        "confidence": "High"
+      }
+    ]
+  }
+}

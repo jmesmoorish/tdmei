@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nMBCT_1882.sol:187:24: TypeError: Definition of base has to precede definition of derived contract\ncontract MinterRole is Context {\r\n                       ^-----^\n", "issues": []}

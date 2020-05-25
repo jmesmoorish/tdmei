@@ -1,0 +1,6 @@
+type,count,contracts
+2thousand,6,"[{""contract"":""AppProxyUpgradeable_2399"",""line"":2193},{""contract"":""CreativesRegistry_2807"",""line"":111},{""contract"":""MakerManager_2841"",""line"":59},{""contract"":""MakerV2Manager_2847"",""line"":54},{""contract"":""TotlePrimary_698"",""line"":551},{""contract"":""Version_1080"",""line"":8}]"
+4thousand,2,"[{""contract"":""CompoundManager_2842"",""line"":59},{""contract"":""CompoundManager_2842"",""line"":116}]"
+6thousand,0,[]
+8thousand,1,"[{""contract"":""TransferManager_2850"",""line"":55}]"
+10thousand,0,[]

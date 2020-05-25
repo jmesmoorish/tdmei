@@ -1,0 +1,6 @@
+type,count,contracts
+2thousand,5,"[{""contract"":""AccountCreator_822"",""line"":820},{""contract"":""CENNZReward_4072"",""line"":46},{""contract"":""DharmaKeyRingFactoryV2_3976"",""line"":524},{""contract"":""DMEX_Oracle_1196"",""line"":83},{""contract"":""PrivatixServiceContract_5562"",""line"":7}]"
+4thousand,1,"[{""contract"":""OBSR_2176"",""line"":13}]"
+6thousand,0,[]
+8thousand,0,[]
+10thousand,0,[]

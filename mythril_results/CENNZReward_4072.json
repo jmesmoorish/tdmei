@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nCENNZReward_4072.sol:248:27: TypeError: Definition of base has to precede definition of derived contract\ncontract ERC20Mintable is ERC20, MinterRole {\r\n                          ^---^\n", "issues": []}
