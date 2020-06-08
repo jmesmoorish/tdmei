@@ -51,7 +51,6 @@ fs.readFile('selectedAddressesTypes.csv', async (err, data) => {
       console.error('Error: '+err)
       return
     }
-    //console.log(await neatCsv(data))
     list = await neatCsv(data)
 })
 
@@ -72,33 +71,26 @@ const getTypePos = (type) => {
     }
 }
 
-/*fs.readdir(path, function(err, items) {for (var i=0; i<items.length; i++) {console.log(items[i])}});*/
 const getPatterns = (folder) => {
-    //glob("**/*.js", options, function (er, files) { // options is optional
     glob(folder+'*.xlsx', function (er, files) {
-        // files is an array of filenames.
-        // If the `nonull` option is set, and nothing
-        // was found, then files is ["**/*.js"]
-        // er is an error object or null.
         console.log('Total files:' +files.length)
         for (let i=0; i<files.length; i++) {
             let aux = []
             let type = ''
             let pos = -1
-            let fileName = path.basename(files[i]) //console.log(i+' - '+fileName)
-            fileName = fileName.split('.').slice(0, -1).join('.') // remover extensao
+            let fileName = path.basename(files[i]) 
+            fileName = fileName.split('.').slice(0, -1).join('.') 
             aux = fileName.split('_')
             type = getTypeById(aux[aux.length-1])
             pos =  getTypePos(type)
-                xlsxFile(files[i]).then((rows) => { //xlsxFile('./Data.xlsx').then((rows) => {
-                    //console.log(rows); //console.table(rows);
-                    for (let j=1; j<rows.length; j++) {
-                        //for (k in rows[j]){console.dir(rows[j][k])}  
+                xlsxFile(files[i]).then((rows) => { 
+                    for (let j=1; j<rows.length; j++) { 
                         switch (rows[j][0].toLowerCase()){
+                            //Authorization patterns
                             case 'access restriction': accessRest[pos].count++; accessRest[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
                             case 'multiple authorization': multsig[pos].count++; multsig[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
                             case 'ownership': owner[pos].count++; owner[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
-                            //
+                            //Control patterns
                             case 'commit and reveal': commitReveal[pos].count++; commitReveal[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
                             case 'guard check': guardCheck[pos].count++; guardCheck[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
                             case 'memory array building': memoryArray[pos].count++; memoryArray[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
@@ -111,7 +103,7 @@ const getPatterns = (folder) => {
                             case 'string equality comparison': stringEqual[pos].count++; stringEqual[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
                             case 'tight variable packing': tightVar[pos].count++; tightVar[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
                             case 'token': token[pos].count++; token[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
-                            //
+                            //Maintenance patterns
                             case 'automatic deprecation': autoDep[pos].count++; autoDep[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
                             case 'contract composer': composer[pos].count++; composer[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
                             case 'contract factory': factory[pos].count++; factory[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
@@ -120,7 +112,7 @@ const getPatterns = (folder) => {
                             case 'data segregation': segregation[pos].count++; segregation[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
                             case 'mortal': mortal[pos].count++; mortal[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
                             case 'satellite': satellite[pos].count++; satellite[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
-                            //
+                            //Security patterns
                             case 'balance limit': balanceLimit[pos].count++; balanceLimit[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
                             case 'checks-effects-interaction': checks[pos].count++; checks[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
                             case 'emergency stop': emergency[pos].count++; emergency[pos].contracts.push({contract: fileName, line: rows[j][1]}); break
@@ -136,10 +128,9 @@ const getPatterns = (folder) => {
     })
 }
 
-function onlyUnique(value, index, self){ //devolve valores unicos
+function onlyUnique(value, index, self){ 
     return self.indexOf(value) === index;
 }
-//let unique = names.filter(onlyUnique);
 
 function getUniques(arr){
     let newArr = []
@@ -151,7 +142,6 @@ function getUniques(arr){
 
 setTimeout(() => {
     console.log('List size: '+list.length) 
-    //console.log('List[0]: '+list[0].name) 
     getPatterns(folder_1)
 },1000)
 

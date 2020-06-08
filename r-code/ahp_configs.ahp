@@ -1,0 +1,68 @@
+Version: 2.0
+#########################
+# Alternatives Section
+# THIS IS FOR The Tom, Dick, & Harry problem at
+# https://en.wikipedia.org/wiki/Analytic_hierarchy_process_%E2%80%93_leader_example
+#
+# This example is provided by Nicole Radziwill, see
+# http://qualityandinnovation.com/2016/01/04/analytic-hierarchy-process-ahp-with-the-ahp-package/
+#
+Alternatives: &alternatives
+# 1= not well; 10 = best possible
+# Your assessment based on the paragraph descriptions may be different.
+# Your assessment based on the paragraph descriptions may be different.
+  Embark:
+  Waffle:
+  Truffle:
+#
+# End of Alternatives Section
+#####################################
+# Goal Section
+#
+Goal:
+# A Goal HAS preferences (within-level comparison) and HAS Children (items in level)
+  name: Selecting the best Ethereum framework
+  preferences:
+    pairwise:
+      # preferences are defined pairwise
+      # 1 means: A is equal to B
+      # 9 means: A is highly preferrable to B
+      # 1/9 means: B is highly preferrable to A
+      - [Learning Curve, Market Share, 9]
+      - [Learning Curve, Documentation, 5]
+      - [Learning Curve, Features, 2]
+      - [Market Share, Documentation, 1/5]
+      - [Market Share, Features, 1/7]
+      - [Features, Documentation, 2]
+  children: 
+    Learning Curve:
+      preferences:
+        pairwise:
+          - [Embark, Waffle, 4]
+          - [Embark, Truffle, 1/2]
+          - [Waffle, Truffle, 1/5] 
+      children: *alternatives 
+    Market Share:
+      preferences:
+         pairwise:
+          - [Embark, Waffle, 7]
+          - [Embark, Truffle, 4]
+          - [Waffle, Truffle, 1/5] 
+      children: *alternatives
+    Documentation:
+      preferences:
+        pairwise:
+          - [Embark, Waffle, 1/2]
+          - [Embark, Truffle, 1/5]
+          - [Waffle, Truffle, 1/3] 
+      children: *alternatives
+    Features:
+      preferences:
+        pairwise:
+          - [Embark, Waffle, 1/2]
+          - [Embark, Truffle, 2]
+          - [Waffle, Truffle, 4] 
+      children: *alternatives
+#
+# End of Goal Section
+#####################################

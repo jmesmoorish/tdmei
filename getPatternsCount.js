@@ -1,42 +1,32 @@
-//const fs = require('fs')
 var path = require('path');
 const ObjectsToCsv = require('objects-to-csv')
 const xlsxFile = require('read-excel-file/node')
 var glob = require("glob")
- 
 const folder = 'D:/Dropbox/0_isep/TDMEI/tdmei/collectedContracts/'
 const folder_2 = 'D:/Dropbox/0_isep/TDMEI/tdmei/code/pattern_samples/'
 const folder_sec = 'D:/Dropbox/0_isep/TDMEI/tdmei/code/pattern_samples/security/'
 const folder_auth = 'D:/Dropbox/0_isep/TDMEI/tdmei/code/pattern_samples/authorization/'
 const folder_control = 'D:/Dropbox/0_isep/TDMEI/tdmei/code/pattern_samples/control/'
 const folder_maint = 'D:/Dropbox/0_isep/TDMEI/tdmei/code/pattern_samples/maintenance/'
-
 let accessRest=[]; multsig = []; owner=[] 
 let commitReveal=[]; guardCheck=[]; memoryArray=[]; oracle=[]; poll=[]; pullPayment=[]; randomness=[]; safemath=[]; stateMachine=[]; stringEqual=[]; tightVar=[]; token = []
 let autoDep=[]; composer=[]; factory=[]; register=[]; relay=[]; segregation=[]; mortal=[]; satellite = []
 let balanceLimit=[]; checks=[]; emergency=[]; mutex=[]; rateLimit=[]; secureEther=[]; speedBump = []
 let lapses=[]
  
-/*fs.readdir(path, function(err, items) {for (var i=0; i<items.length; i++) {console.log(items[i])}});*/
 const getPatterns = () => {
-    //glob("**/*.js", options, function (er, files) { // options is optional
     glob(folder+'*.xlsx', function (er, files) {
-        // files is an array of filenames.
-        // If the `nonull` option is set, and nothing
-        // was found, then files is ["**/*.js"]
-        // er is an error object or null.
         console.log('Total files:' +files.length)
         for (let i=0; i<files.length; i++) {
-            let fileName = path.basename(files[i]) //console.log(i+' - '+fileName)
-                xlsxFile(files[i]).then((rows) => { //xlsxFile('./Data.xlsx').then((rows) => {
-                    //console.log(rows); //console.table(rows);
+            let fileName = path.basename(files[i]) 
+                xlsxFile(files[i]).then((rows) => { 
                     for (let j=1; j<rows.length; j++) {
-                        //for (k in rows[j]){console.dir(rows[j][k])}  
                         switch (rows[j][0].toLowerCase()){
+                            // Authorization patterns
                             case 'access restriction': accessRest.push({contract: fileName, line: rows[j][1]}); break
                             case 'multiple authorization': multsig.push({contract: fileName, line: rows[j][1]}); break
                             case 'ownership': owner.push({contract: fileName, line: rows[j][1]}); break
-                            //
+                            // Control patterns
                             case 'commit and reveal': commitReveal.push({contract: fileName, line: rows[j][1]}); break
                             case 'guard check': guardCheck.push({contract: fileName, line: rows[j][1]}); break
                             case 'memory array building': memoryArray.push({contract: fileName, line: rows[j][1]}); break
@@ -49,7 +39,7 @@ const getPatterns = () => {
                             case 'string equality comparison': stringEqual.push({contract: fileName, line: rows[j][1]}); break
                             case 'tight variable packing': tightVar.push({contract: fileName, line: rows[j][1]}); break
                             case 'token': token.push({contract: fileName, line: rows[j][1]}); break
-                            //
+                            // Maintenance patterns
                             case 'automatic deprecation': autoDep.push({contract: fileName, line: rows[j][1]}); break
                             case 'contract composer': composer.push({contract: fileName, line: rows[j][1]}); break
                             case 'contract factory': factory.push({contract: fileName, line: rows[j][1]}); break
@@ -58,7 +48,7 @@ const getPatterns = () => {
                             case 'data segregation': segregation.push({contract: fileName, line: rows[j][1]}); break
                             case 'mortal': mortal.push({contract: fileName, line: rows[j][1]}); break
                             case 'satellite': satellite.push({contract: fileName, line: rows[j][1]}); break
-                            //
+                            // Security patterns
                             case 'balance limit': balanceLimit.push({contract: fileName, line: rows[j][1]}); break
                             case 'checks-effects-interaction': checks.push({contract: fileName, line: rows[j][1]}); break
                             case 'emergency stop': emergency.push({contract: fileName, line: rows[j][1]}); break
@@ -74,10 +64,9 @@ const getPatterns = () => {
     })
 }
 
-function onlyUnique(value, index, self){ //devolve valores unicos
+function onlyUnique(value, index, self){
     return self.indexOf(value) === index;
 }
-//let unique = names.filter(onlyUnique);
 
 function getUniques(arr){
     let newArr = []
