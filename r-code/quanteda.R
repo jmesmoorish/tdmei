@@ -46,8 +46,3 @@ spills_DFM <- dfm(docs_dfm, dictionary = myDict)
 
 #Save results
 write.xlsx(spills_DFM, "found_patterns.xlsx")
-
-
-
-
-
