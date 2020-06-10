@@ -33,7 +33,7 @@ commit = c("commit and reveal", "encrypting on-chain data", "hash secrett"), ora
 token = c("token", "tokenisation"), randomness = c("randomness"), poll = c("poll"), math = c("safemath", "math"),
 guardCheck = c("guard check"), string = c("string equality comparison"),
 variable = c("tight variable packing", "variables packing"),memory = c("memory array building"),
-mortal = c("mortal", "termination"), automatic = c("automatic peprecation"),
+mortal = c("mortal", "termination"), automatic = c("automatic deprecation"),
 data = c("data segregation", "data contract", "eternal storage"), satellite = c("satellite", "contract decorator"),
 register = c("contract register", "contract registry"), relay = c("contract relay", "contract observer", "proxy", "proxy delegate"),
 factory = c("factory contract", "contract factory"),composer = c("contract composer"),
