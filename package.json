@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "buffer": "^5.6.0",
     "exceljs": "^3.9.0",
     "glob": "^7.1.6",
